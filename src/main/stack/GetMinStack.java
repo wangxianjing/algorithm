@@ -1,11 +1,11 @@
-package stack;
+package main.stack;
 
 import java.util.Stack;
 
 /**
  * 本题看着别人的结题思路敲的代码。
  *
- * 普通的栈的基础上实现返回栈中最小元素的操作。要求：pop、push、getMin操作的时间复杂度都是
+ * 普通的栈的基础上实现返回栈中最小元素的操作。要求：pop、push、getMin操作的时间复杂度都是O(1)
  *
  * 解题思路：stackData记录栈的所有数据，minStack栈的顶层是当前栈中的最小值
  *
