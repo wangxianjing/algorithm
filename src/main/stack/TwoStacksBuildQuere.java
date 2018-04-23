@@ -10,7 +10,7 @@ import java.util.Stack;
  * 注意两点：
  * 1.如果popStack不为空，则不能把数据压人popStack。
  * 2，如果要往popStack中压入数据，则一次性全量从pushStack中取出并压入
- * 
+ *
  * Created by wong on 18/4/22.
  */
 public class TwoStacksBuildQuere {
