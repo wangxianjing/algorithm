@@ -33,8 +33,8 @@ public class UseStackHandleHanoi {
         } else {
             count++;//把大象放到冰箱有3步
             hanoi1(size - 1, aStack, cStack, bStack);//第一步打开冰箱，将上面的size-1个移到辅助的b栈上
-            cStack.push(aStack.pop());//打开冰箱的第二步，将a栈的唯一一个放到c栈上
-            hanoi1(size - 1, bStack, aStack, cStack);//打开冰箱第三步，将剩下的size-1个从b栈移到c栈上
+            cStack.push(aStack.pop());//第二步把大象放进冰箱，将a栈的唯一一个放到c栈上
+            hanoi1(size - 1, bStack, aStack, cStack);//第三步关上冰箱的门，将剩下的size-1个从b栈移到c栈上
         }
     }
 
