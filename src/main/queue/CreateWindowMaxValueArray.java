@@ -12,20 +12,21 @@ import java.util.Deque;
 public class CreateWindowMaxValueArray {
     private static int windowWidth = 3;
     private static int[] a = {4, 3, 5, 4, 3, 3, 6, 7};
+//    private static int[] a = {9, 8, 7, 6, 5, 4, 3, 2};
     private static Deque<Integer> deque = new ArrayDeque<>();
     private static int i = 0;
     public static void getMaxValue() {
         int[] res = new int [a.length - windowWidth + 1];
         int index = 0;
         while (i < a.length) {
-            while (!deque.isEmpty() && a[deque.peekLast()] < a[i]) {
+            while (!deque.isEmpty() && a[deque.peekLast()] < a[i]) {//确保放进队尾时最大
                 deque.pollLast();
             }
-            deque.addLast(i);
+            deque.addLast(i);//添加到队尾，确保每个索引下的值都有机会称为窗口内的最大值
             if (deque.peekFirst() == i - windowWidth) {
-                deque.pollFirst();
+                deque.pollFirst();//过滤掉过期的队首最大值
             }
-            if (i >= windowWidth - 1) {
+            if (i >= windowWidth - 1) {//索引达到达到窗口长度开始有“窗口内的最大值”
                 res[index ++] = a[deque.peekFirst()];
             }
             i++;
