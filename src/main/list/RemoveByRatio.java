@@ -1,6 +1,5 @@
 package main.list;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -11,17 +10,7 @@ import java.util.List;
  * <p>
  * Created by wong on 18/5/1.
  */
-public class RemoveByRatio {
-    private static List<Integer> list = new ArrayList<>();
-
-    static {
-        list.add(1);
-        list.add(4);
-        list.add(6);
-        list.add(2);
-        list.add(9);
-        list.add(7);
-    }
+public class RemoveByRatio extends BaseList{
 
     public static void remove(List<Integer> list, int a, int b) {
         int size = list.size();
@@ -38,6 +27,6 @@ public class RemoveByRatio {
 
     public static void main(String[] args) {
         remove(list, 2, 3);
-        System.out.println(list);
+        print();
     }
 }
