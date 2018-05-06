@@ -2,15 +2,16 @@ package main.list;
 
 /**
  * 逆序一个链表
- *
+ * <p>
  * https://blog.csdn.net/guyuealian/article/details/51119499
- *
+ * <p>
  * Created by wong on 18/5/1.
  */
 public class ReverseList {
 
     /**
      * 循环遍历实现
+     *
      * @param head
      * @return
      */
@@ -34,6 +35,7 @@ public class ReverseList {
 
     /**
      * 递归实现
+     *
      * @param head
      * @return
      */
@@ -48,58 +50,14 @@ public class ReverseList {
     }
 
     public static void main(String[] args) {
-        Node head = new Node(0);
-        Node node1 = new Node(1);
-        head.setNext(node1);
-        Node node2 = new Node(2);
-        node1.setNext(node2);
-        Node node3 = new Node(3);
-        node2.setNext(node3);
-        Node node4 = new Node(4);
-        node3.setNext(node4);
+        Node head = Node.init();
 
-        print(head);
+        Node.print(head);
         System.out.println("***************");
 
         Node newHead = reverse2(head);
-        print(newHead);
+        Node.print(newHead);
 
-    }
-
-    public static void print(Node head) {
-        if (head != null){
-            Node temp = head;
-            while (temp != null) {
-                System.out.println(temp.getData());
-                temp = temp.getNext();
-            }
-        }
-    }
-
-    static class Node {
-        private int data;
-        private Node next;
-
-
-        public Node(int data) {
-            this.data = data;
-        }
-
-        public int getData() {
-            return data;
-        }
-
-        public void setData(int data) {
-            this.data = data;
-        }
-
-        public Node getNext() {
-            return next;
-        }
-
-        public void setNext(Node next) {
-            this.next = next;
-        }
     }
 
 }
