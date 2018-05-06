@@ -40,14 +40,14 @@ public class Node {
 
 
     public static Node init() {
-        Node head = new Node(0);
-        Node node1 = new Node(1);
+        Node head = new Node(1);
+        Node node1 = new Node(10);
         head.setNext(node1);
-        Node node2 = new Node(2);
+        Node node2 = new Node(4);
         node1.setNext(node2);
-        Node node3 = new Node(3);
+        Node node3 = new Node(5);
         node2.setNext(node3);
-        Node node4 = new Node(4);
+        Node node4 = new Node(9);
         node3.setNext(node4);
         return head;
     }
