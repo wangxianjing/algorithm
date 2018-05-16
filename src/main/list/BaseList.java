@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class BaseList {
     public static List<Integer> list = new LinkedList<>();
+    public static List<Integer> otherList = new LinkedList<>();
 
     static {
         list.add(1);
@@ -16,6 +17,9 @@ public class BaseList {
         list.add(2);
         list.add(9);
         list.add(7);
+        otherList.add(7);
+        otherList.add(6);
+        otherList.add(3);
     }
 
     public static void print() {
