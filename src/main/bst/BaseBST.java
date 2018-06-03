@@ -21,11 +21,12 @@ public class BaseBST {
         treeNode1L1.setLeft(treeNodeL1L1);
         TreeNode treeNodeL1R1 = new TreeNode();
         treeNodeL1R1.setVal(9);
+        treeNode1L1.setRight(treeNodeL1R1);
         TreeNode treeNodeR1L1 = new TreeNode();
-        treeNodeL1R1.setVal(13);
+        treeNodeR1L1.setVal(13);
         treeNode1R1.setLeft(treeNodeR1L1);
         TreeNode treeNodeR1R1 = new TreeNode();
-        treeNodeR1R1.setVal(1);
+        treeNodeR1R1.setVal(27);
         treeNode1R1.setRight(treeNodeR1R1);
     }
 
