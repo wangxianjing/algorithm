@@ -43,37 +43,37 @@ public class AVLRotation {
         return rightRightRotation(root);
     }
 
-    public static AVLNode insert(AVLNode root, int key) {
-        System.out.println("insert:" + key);
-        if (root == null) {
-            root = new AVLNode(key, null, null, 1);
-        } else {
-            int cmp = key - root.getVal();
-            if (cmp < 0) {
-                root.setLeft(insert(root.getLeft(), key));
-                if (height(root.getLeft()) - height(root.getRight()) == 2) {
-                    if (key < root.getLeft().getVal()) {
-                        root = leftLeftRotation(root);
-                    } else {
-                        root = leftRightRotation(root);
-                    }
-                }
-            } else if (cmp > 0) {
-                root.setRight(insert(root.getRight(), key));
-                if (height(root.getRight()) - height(root.getLeft()) == 2) {
-                    if (key > height(root.getRight())) {
-                        root = rightRightRotation(root);
-                    } else {
-                        root = rightLeftRotation(root);
-                    }
-                }
-            } else {
-                System.out.println("添加失败，节点不允许相同:" + key);
-            }
-        }
-        root.setHeight(max(height(root.getLeft()), height(root.getRight())) + 1);
-        return root;
-    }
+//    public static AVLNode insert(AVLNode root, int key) {
+//        System.out.println("insert:" + key);
+//        if (root == null) {
+//            root = new AVLNode(key, null, null, 1);
+//        } else {
+//            int cmp = key - root.getVal();
+//            if (cmp < 0) {
+//                root.setLeft(insert(root.getLeft(), key));
+//                if (height(root.getLeft()) - height(root.getRight()) == 2) {
+//                    if (key < root.getLeft().getVal()) {
+//                        root = leftLeftRotation(root);
+//                    } else {
+//                        root = leftRightRotation(root);
+//                    }
+//                }
+//            } else if (cmp > 0) {
+//                root.setRight(insert(root.getRight(), key));
+//                if (height(root.getRight()) - height(root.getLeft()) == 2) {
+//                    if (key > height(root.getRight())) {
+//                        root = rightRightRotation(root);
+//                    } else {
+//                        root = rightLeftRotation(root);
+//                    }
+//                }
+//            } else {
+//                System.out.println("添加失败，节点不允许相同:" + key);
+//            }
+//        }
+//        root.setHeight(max(height(root.getLeft()), height(root.getRight())) + 1);
+//        return root;
+//    }
 
     public static int height(AVLNode avlNode) {
         if (avlNode != null) {
