@@ -3,11 +3,18 @@ package main.avl;
 /**
  * Created by wong on 18/6/10.
  */
-public class BaseAVL {
+public class AVLNode {
     private int val;
-    private BaseAVL left;
-    private BaseAVL right;
+    private AVLNode left;
+    private AVLNode right;
     private int height;
+
+    public AVLNode(int val, AVLNode left, AVLNode right, int height) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+        this.height = height;
+    }
 
     public int getVal() {
         return val;
@@ -17,19 +24,19 @@ public class BaseAVL {
         this.val = val;
     }
 
-    public BaseAVL getLeft() {
+    public AVLNode getLeft() {
         return left;
     }
 
-    public void setLeft(BaseAVL left) {
+    public void setLeft(AVLNode left) {
         this.left = left;
     }
 
-    public BaseAVL getRight() {
+    public AVLNode getRight() {
         return right;
     }
 
-    public void setRight(BaseAVL right) {
+    public void setRight(AVLNode right) {
         this.right = right;
     }
 
