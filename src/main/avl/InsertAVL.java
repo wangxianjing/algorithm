@@ -25,18 +25,14 @@ public class InsertAVL {
         }
         if (AVLRotation.height(root.getLeft()) - AVLRotation.height(root.getRight()) > 1) {
             if (AVLRotation.height(root.getLeft().getLeft()) >= AVLRotation.height(root.getLeft().getRight())) {
-                System.out.println("leftLeftRotation, root:" + root.getVal() );
                 return AVLRotation.leftLeftRotation(root);
             } else {
-                System.out.println("leftRightRotation:" + root.getVal());
                 return AVLRotation.leftRightRotation(root);
             }
         } else if (AVLRotation.height(root.getLeft()) - AVLRotation.height(root.getRight()) < -1) {
             if (AVLRotation.height(root.getRight().getRight()) >= AVLRotation.height(root.getRight().getLeft())) {
-                System.out.println("rightRightRotation:" + root.getVal());
                 return AVLRotation.rightRightRotation(root);
             } else {
-                System.out.println("rightLeftRotation:" + root.getVal());
                 return AVLRotation.rightLeftRotation(root);
             }
         }
