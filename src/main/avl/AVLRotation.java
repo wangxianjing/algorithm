@@ -38,7 +38,6 @@ public class AVLRotation {
     }
 
     public static AVLNode rightLeftRotation(AVLNode root) {//RL旋转，先对右节点LL旋转，再对根节点RR旋转
-        System.out.println("RL");
         root.setRight(leftLeftRotation(root.getRight()));
         return rightRightRotation(root);
     }
@@ -79,7 +78,7 @@ public class AVLRotation {
         if (avlNode != null) {
             return avlNode.getHeight();
         } else {
-            return 0;
+            return -1;
         }
     }
 
@@ -92,17 +91,17 @@ public class AVLRotation {
     }
 
     public static void main(String[] args) {
-        AVLNode root = insert(null, 10);
-        root = insert(root, 6);
-        root = insert(root, 5);
-        root = insert(root, 7);
-        root = insert(root, 8);
+//        AVLNode root = insert(null, 10);
+//        root = insert(root, 6);
+//        root = insert(root, 5);
+//        root = insert(root, 7);
+//        root = insert(root, 8);
 //        root = insert(root, 18);
 //        root = insert(root, 12);
 //        root = insert(root, 11);
 //        root = insert(root, 13);
 //        root = insert(root, 20);
 //        root = insert(root, 19);
-        middleOrderPrint(root);
+//        middleOrderPrint(root);
     }
 }

@@ -9,30 +9,33 @@ public class InsertAVL {
         if (root == null) {
             return new AVLNode(target, null, null, 0);
         }
-        if (root.getVal() == target) {
-            System.out.println("不允许插入重复的值：" + target);
-            return root;
-        }
-
         if (root.getVal() > target) {
             root.setLeft(insert(root.getLeft(), target));
-        } else {
+        } else if (root.getVal() < target) {
             root.setRight(insert(root.getRight(), target));
+        } else {
+            System.out.println("不允许插入重复的值：" + target);
         }
         return balance(root);
     }
 
     public static AVLNode balance(AVLNode root) {
-        if (AVLRotation.height(root.getLeft()) - AVLRotation.height(root.getRight()) == 2) {
-            if (AVLRotation.height(root.getLeft().getLeft()) > AVLRotation.height(root.getLeft().getRight())) {
+        if (root == null) {
+            return root;
+        }
+        if (AVLRotation.height(root.getLeft()) - AVLRotation.height(root.getRight()) > 1) {
+            if (AVLRotation.height(root.getLeft().getLeft()) >= AVLRotation.height(root.getLeft().getRight())) {
+                System.out.println("leftLeftRotation, root:" + root.getVal() );
                 return AVLRotation.leftLeftRotation(root);
-            } else if (AVLRotation.height(root.getLeft().getLeft()) < AVLRotation.height(root.getLeft().getRight())){
+            } else {
+                System.out.println("leftRightRotation:" + root.getVal());
                 return AVLRotation.leftRightRotation(root);
             }
-        } else if (AVLRotation.height(root.getLeft()) - AVLRotation.height(root.getRight()) == -2) {
-            if (AVLRotation.height(root.getRight().getLeft()) < AVLRotation.height(root.getRight().getRight())) {
+        } else if (AVLRotation.height(root.getLeft()) - AVLRotation.height(root.getRight()) < -1) {
+            if (AVLRotation.height(root.getRight().getRight()) >= AVLRotation.height(root.getRight().getLeft())) {
+                System.out.println("rightRightRotation:" + root.getVal());
                 return AVLRotation.rightRightRotation(root);
-            } else if (AVLRotation.height(root.getRight().getLeft()) > AVLRotation.height(root.getRight().getRight())) {
+            } else {
                 System.out.println("rightLeftRotation:" + root.getVal());
                 return AVLRotation.rightLeftRotation(root);
             }
@@ -47,6 +50,12 @@ public class InsertAVL {
         root = insert(root, 5);
         root = insert(root, 7);
         root = insert(root, 8);
+        root = insert(root, 18);
+        root = insert(root, 12);
+        root = insert(root, 11);
+        root = insert(root, 13);
+        root = insert(root, 20);
+        root = insert(root, 19);
         AVLRotation.middleOrderPrint(root);
     }
 }
