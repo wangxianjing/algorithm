@@ -90,6 +90,14 @@ public class AVLRotation {
         }
     }
 
+    public static void preOrderPrint(AVLNode root) {
+        if (root != null) {
+            System.out.println("(val:" + root.getVal() + ",height:" + root.getHeight() + ")");
+            preOrderPrint(root.getLeft());
+            preOrderPrint(root.getRight());
+        }
+    }
+
     public static void main(String[] args) {
 //        AVLNode root = insert(null, 10);
 //        root = insert(root, 6);
