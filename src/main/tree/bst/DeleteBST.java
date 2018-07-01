@@ -1,4 +1,4 @@
-package main.bst;
+package main.tree.bst;
 
 /**
  * 删除BST上的一个节点

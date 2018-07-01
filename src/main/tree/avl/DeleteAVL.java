@@ -1,4 +1,4 @@
-package main.avl;
+package main.tree.avl;
 
 /**
  * Created by wong on 18/6/21.

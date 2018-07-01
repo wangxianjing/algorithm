@@ -1,4 +1,4 @@
-package main.bst;
+package main.tree.bst;
 
 /**
  * 想BST中插入新的节点，若插入成功返回true，若树中已经有相同的值，则不插入，返回FALSE。

@@ -1,4 +1,4 @@
-package main.avl;
+package main.tree.avl;
 
 /**
  * https://www.cnblogs.com/skywang12345/p/3577479.html

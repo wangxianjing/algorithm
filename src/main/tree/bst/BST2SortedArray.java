@@ -1,4 +1,4 @@
-package main.bst;
+package main.tree.bst;
 
 /**
  * https://blog.csdn.net/anonymalias/article/details/9204825

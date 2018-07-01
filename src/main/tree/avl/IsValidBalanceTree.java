@@ -1,4 +1,4 @@
-package main.avl;
+package main.tree.avl;
 
 /**
  * 判断一棵树是不是平衡二叉树，注意不是AVL树，只是借用下。

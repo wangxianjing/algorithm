@@ -1,4 +1,4 @@
-package main.bst;
+package main.tree.bst;
 
 /**
  * 判断是否是合法的BST

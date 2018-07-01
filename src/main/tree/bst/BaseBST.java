@@ -1,4 +1,4 @@
-package main.bst;
+package main.tree.bst;
 
 /**
  * Created by wong on 18/6/3.
