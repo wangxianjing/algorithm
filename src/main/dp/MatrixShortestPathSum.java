@@ -1,5 +1,7 @@
 package main.dp;
 
+import main.common.ArrayUtils;
+
 /**
  * 从一个矩阵的最左上角走到最右下角，经过的格子的数字之和的最小值。
  * <p>
@@ -7,26 +9,6 @@ package main.dp;
  */
 public class MatrixShortestPathSum {
 
-    public static int[][] a = new int[4][4];
-
-    static {
-        a[0][0] = 1;
-        a[0][1] = 3;
-        a[0][2] = 5;
-        a[0][3] = 9;
-        a[1][0] = 8;
-        a[1][1] = 1;
-        a[1][2] = 3;
-        a[1][3] = 4;
-        a[2][0] = 5;
-        a[2][1] = 0;
-        a[2][2] = 6;
-        a[2][3] = 1;
-        a[3][0] = 8;
-        a[3][1] = 8;
-        a[3][2] = 4;
-        a[3][3] = 0;
-    }
 
     /**
      * 空间复杂度是Row*Col
@@ -103,8 +85,8 @@ public class MatrixShortestPathSum {
     }
 
     public static void main(String[] args) {
-        System.out.println(min2(a));
-        System.out.println(min1(a));
+        System.out.println(min2(ArrayUtils.a));
+        System.out.println(min1(ArrayUtils.a));
     }
 
 }
