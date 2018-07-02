@@ -1,1 +1,12 @@
 # algorithm
+aarray       数组相关的题型
+common       公共方法，属性
+design       设计模式
+dp           动态规划问题
+interview    面试题
+list         链表题型
+queue        队列题型
+sort         排序
+sstring      字符串题型
+stack        栈题型
+tree         树题型
