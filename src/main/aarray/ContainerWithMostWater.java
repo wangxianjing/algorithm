@@ -6,6 +6,11 @@ package main.aarray;
 public class ContainerWithMostWater {
     public static int[] a = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
 
+    /**
+     * 时间复杂度是O的平方
+     * @param height
+     * @return
+     */
     public static int resolve(int[] height) {
         if (height.length < 2) {
             return 0;
@@ -26,7 +31,34 @@ public class ContainerWithMostWater {
         return mostWater;
     }
 
+    /**
+     * 时间复杂度是o（n）
+     * @param height
+     * @return
+     */
+    public static int resolve1(int[] height) {
+
+        if (height.length < 2) {
+            return 0;
+        }
+        int mostWater = 0;
+
+        int left = 0;
+        int right = height.length - 1;
+
+        while (left < right) {
+            int water = Math.min(a[left],a[right]) * (right - left);
+            mostWater = Math.max(mostWater, water);
+            if (a[right] > a[left]){
+                left ++;
+            } else {
+                right --;
+            }
+        }
+        return mostWater;
+    }
+
     public static void main(String[] args) {
-        System.out.printf(String.valueOf(resolve(a)));
+        System.out.printf(String.valueOf(resolve1(a)));
     }
 }
