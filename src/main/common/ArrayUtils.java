@@ -28,4 +28,12 @@ public class ArrayUtils {
         a[3][2] = 4;
         a[3][3] = 0;
     }
+
+    public static void print(int[] a,int len){
+        if (a != null && a.length > 0 && len<=a.length){
+            for (int i = 0; i <len; i ++){
+                System.out.println(a[i]);
+            }
+        }
+    }
 }
