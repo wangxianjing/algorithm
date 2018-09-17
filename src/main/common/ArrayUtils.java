@@ -6,7 +6,6 @@ public class ArrayUtils {
      * 8 1 3 4
      * 5 0 6 1
      * 8 8 4 0
-     *
      */
     public static int[][] a = new int[4][4];
 
@@ -29,11 +28,19 @@ public class ArrayUtils {
         a[3][3] = 0;
     }
 
-    public static void print(int[] a,int len){
-        if (a != null && a.length > 0 && len<=a.length){
-            for (int i = 0; i <len; i ++){
+    public static void print(int[] a, int len) {
+        if (a != null && a.length > 0 && len <= a.length) {
+            for (int i = 0; i < len; i++) {
                 System.out.println(a[i]);
             }
+        }
+    }
+
+    public static void print(int[] a) {
+        int i = 0;
+        while (i < a.length) {
+            System.out.println(String.valueOf(a[i]));
+            i++;
         }
     }
 }
