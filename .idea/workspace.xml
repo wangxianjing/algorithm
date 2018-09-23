@@ -6,81 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/aarray/SubSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/aarray/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/ContainerWithMostWater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/FindFirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/MatrixRotateNityDegree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/NextPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/RemoveDuplicatesFromStoredArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/RemoveElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/RotatePrintMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/SearchRotatedSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/common/ArrayUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/proxy/dynamic/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/proxy/dynamic/RequestProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/proxy/dynamic/TargetClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/proxy/dynamic/TargetInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/proxy/sstatic/ProxySubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/proxy/sstatic/RealSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/proxy/sstatic/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/BiggestChildSequenceSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/DataTower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/FibonacciSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/MatrixShortestPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/OneZeroPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/interview/CodeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/interview/SmallestSkipTimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/interview/Sql.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/interview/UserId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/AddList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/BaseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/ConvertPartList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/DeleteLastKNodeInList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/ListPartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/PrintTwoSortedListSamePart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/RemoveByRatio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/ReverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/queue/CreateWindowMaxValueArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sort/BaseSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sort/BubblingSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sort/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sort/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sort/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sql/SQL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sstring/CString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sstring/LongestCommonSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/sstring/LongestNotRepeatSubString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/BaseStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/GetMinStack$Mystack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/GetMinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/OneStackSortAnotherStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/RecursionReverseStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/TwoStacksBuildQuere$MyStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/TwoStacksBuildQuere.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/UseStackHandleHanoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/avl/AVLNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/avl/AVLRotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/avl/DeleteAVL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/avl/InsertAVL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/avl/IsValidBalanceTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/BST2SortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/BSTIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/BaseBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/DeleteBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/InsertBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/InvertBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/IsValidBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/OrderBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/SearchBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/bst/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/rb/RBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/tree/rb/RBTreeNode.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,31 +34,31 @@
     <session id="-172619085">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="4" />
-          <entry key="java" value="2491" />
+          <entry key="java" value="2982" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2491" />
+          <entry key="JAVA" value="2982" />
           <entry key="VTL" value="4" />
         </counts>
       </usages-collector>
@@ -143,24 +70,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/aarray/SearchInsertPosition.java">
+        <entry file="file://$PROJECT_DIR$/src/main/aarray/SubSets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/aarray/SubSets.java">
+        <entry file="file://$PROJECT_DIR$/src/main/aarray/PlusOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#217#232#0" expanded="true" />
-                <element signature="e#731#751#0" expanded="true" />
-                <element signature="e#1149#1164#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -168,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Collections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="8385">
               <caret line="585" column="27" selection-start-line="585" selection-start-column="27" selection-end-line="585" selection-end-column="27" />
             </state>
           </provider>
@@ -204,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/stack/OneStackSortAnotherStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="300">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -264,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/bst/OrderBST.java" />
         <option value="$PROJECT_DIR$/src/main/dp/BiggestChildSequenceSum.java" />
         <option value="$PROJECT_DIR$/src/main/dp/DataTower.java" />
         <option value="$PROJECT_DIR$/src/main/bst/SearchBST.java" />
@@ -315,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/main/tree/rb/RBTreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/SearchInsertPosition.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/SubSets.java" />
+        <option value="$PROJECT_DIR$/src/main/aarray/PlusOne.java" />
       </list>
     </option>
   </component>
@@ -331,7 +253,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="373" />
+    <option name="y" value="25" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -354,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -495,12 +416,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537609602311" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537671100574" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -533,7 +455,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubSets">
+  <component name="RunManager" selected="Application.PlusOne">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -599,8 +521,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.aarray.NextPermutation" />
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.aarray.PlusOne" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -756,19 +678,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Application.SearchRotatedSortedArray" />
       <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
       <item itemvalue="Application.SearchInsertPosition" />
       <item itemvalue="Application.SubSets" />
+      <item itemvalue="Application.PlusOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.SubSets" />
         <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
         <item itemvalue="Application.SearchRotatedSortedArray" />
-        <item itemvalue="Application.NextPermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -807,12 +729,13 @@
       <workItem from="1530535985327" duration="102000" />
       <workItem from="1536931466959" duration="6925000" />
       <workItem from="1537441522336" duration="514000" />
-      <workItem from="1537598855548" duration="8908000" />
+      <workItem from="1537598855548" duration="9053000" />
+      <workItem from="1537668243316" duration="1764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142611000" />
+    <option name="totallyTimeSpent" value="144520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,10 +747,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="373" width="1386" height="788" extended-state="0" />
+    <frame x="0" y="25" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24627976" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -836,15 +759,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.020325202" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.3370945" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3179792" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.3358098" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3179792" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32763532" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.27362484" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.27191678" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.32646048" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.28285715" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
@@ -915,13 +838,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/tree/bst/OrderBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3429">
-          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/tree/bst/SearchBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1205,6 +1121,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aarray/SearchInsertPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8385">
+          <caret line="585" column="27" selection-start-line="585" selection-start-column="27" selection-end-line="585" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/list/DeleteLastKNodeInList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/list/ListPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/stack/OneStackSortAnotherStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1226,57 +1184,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/aarray/SearchInsertPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/list/ListPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/stack/OneStackSortAnotherStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/list/DeleteLastKNodeInList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="585" column="27" selection-start-line="585" selection-start-column="27" selection-end-line="585" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/SubSets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#217#232#0" expanded="true" />
-            <element signature="e#731#751#0" expanded="true" />
-            <element signature="e#1149#1164#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aarray/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
