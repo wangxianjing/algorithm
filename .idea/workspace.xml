@@ -6,15 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/aarray/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/aarray/PascalTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/aarray/PlusOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/SubSets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/aarray/SubSets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/list/AddList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/list/AddList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/queue/CreateWindowMaxValueArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/queue/CreateWindowMaxValueArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/GetMinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/stack/GetMinStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/stack/TwoStacksBuildQuere.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/stack/TwoStacksBuildQuere.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,20 +88,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortedArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeSortedArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/aarray/MergeSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+            <state relative-caret-position="81">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteLastKNodeInList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/list/DeleteLastKNodeInList.java">
+      <file leaf-file-name="PascalTriangle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/aarray/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="279">
+              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#272#0" expanded="true" />
+                <element signature="e#1207#1222#0" expanded="true" />
+                <element signature="e#1268#1277#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/dp/DataTower.java" />
         <option value="$PROJECT_DIR$/src/main/bst/SearchBST.java" />
         <option value="$PROJECT_DIR$/src/main/bst/InsertBST.java" />
         <option value="$PROJECT_DIR$/src/main/bst/DeleteBST.java" />
@@ -245,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/main/aarray/SubSets.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/MergeSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/main/aarray/PascalTriangle.java" />
       </list>
     </option>
   </component>
@@ -261,7 +260,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -463,9 +463,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.aarray.FindFirstAndLastPositionOfElementInSortedArray" />
+  <component name="RunManager" selected="Application.PascalTriangle">
+    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.aarray.MergeSortedArray" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -475,8 +475,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.aarray.MergeSortedArray" />
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.aarray.PascalTriangle" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -699,19 +699,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
       <item itemvalue="Application.SearchInsertPosition" />
       <item itemvalue="Application.SubSets" />
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.MergeSortedArray" />
+      <item itemvalue="Application.PascalTriangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.SubSets" />
         <item itemvalue="Application.SearchInsertPosition" />
-        <item itemvalue="Application.FindFirstAndLastPositionOfElementInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -779,17 +779,17 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.32646048" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.30756015" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.30756015" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.27191678" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.27147767" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25869894" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0741301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3179792" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31786942" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -851,7 +851,23 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/aarray/PascalTriangle.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/aarray/PascalTriangle.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -859,13 +875,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/tree/bst/InsertBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/tree/bst/DeleteBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1208,8 +1217,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+        <state relative-caret-position="81">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aarray/PascalTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#272#0" expanded="true" />
+            <element signature="e#1207#1222#0" expanded="true" />
+            <element signature="e#1268#1277#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
