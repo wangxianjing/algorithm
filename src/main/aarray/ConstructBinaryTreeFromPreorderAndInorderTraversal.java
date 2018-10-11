@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 根据前序和中序遍历生成树
+ * 根据前序和中序遍历的数组生成生成树,注意数组中无重复数据。
  * Created by wong on 2018\10\10 0010.
  */
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
