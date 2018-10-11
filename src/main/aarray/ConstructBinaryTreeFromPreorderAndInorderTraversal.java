@@ -12,6 +12,7 @@ import java.util.Map;
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     //https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
     // /discuss/34541/5ms-Java-Clean-Solution-with-Caching
+    // https://articles.leetcode.com/construct-binary-tree-from-inorder-and-preorder-postorder-traversal
     public static TreeNode otherGoodSolution(int[] preorder, int[] inorder) {
         Map<Integer, Integer> inMap = new HashMap<>();
         for (int i = 0; i < inorder.length; i++) {
