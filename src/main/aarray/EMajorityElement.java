@@ -8,6 +8,9 @@ package main.aarray;
 public class EMajorityElement {
 
     /**
+     *
+     * 时间复杂度O（N），空间复杂度O（1）
+     *
      * https://leetcode.com/problems/majority-element/discuss/51613/O(n)-time-O(1)-space-fastest-solution
      * <p>
      * https://leetcode.com/problems/majority-element/solution/
@@ -15,6 +18,10 @@ public class EMajorityElement {
      * 多数投票算法(Boyer-Moore Algorithm)详解:https://blog.csdn.net/kimixuchen/article/details/52787307
      *
      * 备注：如果事先不知道是否存在，那就先假定存在并"找出"；再验证是否存在！
+     *
+     * 其它普通的做法有：
+     * 1、用Hash表
+     * 2、排序，中间那个元素一定是要找的值
      *
      * @param nums
      * @return

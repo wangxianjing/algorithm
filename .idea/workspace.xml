@@ -6,6 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/aarray/EContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/aarray/EMajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/aarray/EMajorityElement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,24 +47,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="42" />
+          <entry key="java" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="4" />
-          <entry key="java" value="9077" />
+          <entry key="java" value="9300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9077" />
+          <entry key="JAVA" value="9300" />
           <entry key="VTL" value="4" />
         </counts>
       </usages-collector>
@@ -82,20 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/aarray/EMajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="313">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/list/ConvertPartList.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/aarray/EContainsDuplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/avl/IsValidAVL.java" />
         <option value="$PROJECT_DIR$/src/main/avl/IsValidBalanceTree.java" />
         <option value="$PROJECT_DIR$/src/main/bst/BST2SortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/interview/Sql.java" />
@@ -241,6 +245,7 @@
         <option value="$PROJECT_DIR$/src/main/aarray/ERotateArray.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/EMissingNumber.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/EMajorityElement.java" />
+        <option value="$PROJECT_DIR$/src/main/aarray/EContainsDuplicate.java" />
       </list>
     </option>
   </component>
@@ -359,7 +364,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539651613378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539653145546" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -392,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EMajorityElement">
+  <component name="RunManager" selected="Application.EContainsDuplicate">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -444,8 +449,8 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.aarray.BestTimeToBuyAndSellStock" />
+    <configuration name="EContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.aarray.EContainsDuplicate" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -615,19 +620,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.BestTimeToBuyAndSellStock" />
       <item itemvalue="Application.MoveZeros" />
       <item itemvalue="Application.ERotateArray" />
       <item itemvalue="Application.EMissingNumber" />
       <item itemvalue="Application.EMajorityElement" />
+      <item itemvalue="Application.EContainsDuplicate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EContainsDuplicate" />
         <item itemvalue="Application.EMajorityElement" />
         <item itemvalue="Application.EMissingNumber" />
         <item itemvalue="Application.ERotateArray" />
         <item itemvalue="Application.MoveZeros" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -680,12 +685,12 @@
       <workItem from="1539306718211" duration="1402000" />
       <workItem from="1539437821653" duration="3253000" />
       <workItem from="1539608057476" duration="950000" />
-      <workItem from="1539650700812" duration="728000" />
+      <workItem from="1539650700812" duration="1584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181064000" />
+    <option name="totallyTimeSpent" value="181920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,7 +705,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -717,7 +722,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.1920694" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.1920694" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.32646048" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2812887" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
@@ -821,13 +826,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/tree/avl/AVLNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1167,8 +1165,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/EMajorityElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="313">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/aarray/EContainsDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
