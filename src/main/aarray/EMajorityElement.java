@@ -12,6 +12,10 @@ public class EMajorityElement {
      * <p>
      * https://leetcode.com/problems/majority-element/solution/
      *
+     * 多数投票算法(Boyer-Moore Algorithm)详解:https://blog.csdn.net/kimixuchen/article/details/52787307
+     *
+     * 备注：如果事先不知道是否存在，那就先假定存在并"找出"；再验证是否存在！
+     *
      * @param nums
      * @return
      */
