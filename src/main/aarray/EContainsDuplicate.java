@@ -12,6 +12,7 @@ public class EContainsDuplicate {
 
 
     /**
+     * 时间复杂度是N，空间复杂度也是N。
      * https://leetcode.com/problems/contains-duplicate/solution/
      * <p>
      * 其它常见方法：
