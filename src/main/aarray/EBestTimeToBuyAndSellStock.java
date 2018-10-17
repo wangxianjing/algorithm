@@ -8,7 +8,7 @@ package main.aarray;
  *
  * Created by wong on 2018/10/11.
  */
-public class BestTimeToBuyAndSellStock {
+public class EBestTimeToBuyAndSellStock {
     public static int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {
             return 0;
