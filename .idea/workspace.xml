@@ -6,10 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/aarray/MFindPeakElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/aarray/ZMInsertDeleteGetRandom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/list/ZMLinkedListCycleII.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/aarray/MFindPeakElement.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/aarray/ZMInsertDeleteGetRandom.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/list/ZMLinkedListCycleII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/aarray/MFindTheDuplicateNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/aarray/MFindTheDuplicateNumber.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,12 +65,12 @@
         <counts>
           <entry key="dummy" value="3" />
           <entry key="ft" value="4" />
-          <entry key="java" value="11111" />
+          <entry key="java" value="11121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11111" />
+          <entry key="JAVA" value="11121" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="VTL" value="4" />
         </counts>
@@ -133,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/aarray/MFindPeakElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="135">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -336,7 +340,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539913234297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539913296124" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -660,12 +664,12 @@
       <workItem from="1539650700812" duration="2107000" />
       <workItem from="1539690739446" duration="265000" />
       <workItem from="1539780444896" duration="3082000" />
-      <workItem from="1539856606873" duration="5214000" />
+      <workItem from="1539856606873" duration="5450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191004000" />
+    <option name="totallyTimeSpent" value="191240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -689,7 +693,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.3020231" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.3020231" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27509293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -697,7 +701,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.22398844" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.22398844" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.32646048" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2803468" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
@@ -1154,8 +1158,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/MFindPeakElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>

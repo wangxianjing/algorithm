@@ -6,6 +6,12 @@ package main.aarray;
  */
 public class MFindPeakElement {
 
+    /**
+     * https://leetcode.com/problems/find-peak-element/solution/
+     *
+     * @param nums
+     * @return
+     */
     public static int othersGoodSolution(int[] nums) {
         int l = 0, r = nums.length - 1;
         while (l < r) {
