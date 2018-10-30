@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamicPrograming/EHouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamicPrograming/EClimbingStairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,25 +45,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="60" />
+          <entry key="java" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="60" />
+          <entry key="JAVA" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="ft" value="4" />
-          <entry key="java" value="15949" />
+          <entry key="java" value="16242" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15949" />
+          <entry key="JAVA" value="16242" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="VTL" value="4" />
         </counts>
@@ -114,11 +114,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/EHouseRobber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="443">
+              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/EClimbingStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="34" selection-end-column="22" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/design/structure/proxy/dynamic/TargetClass.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/proxy/dynamic/Main.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/proxy/dynamic/RequestProxy.java" />
         <option value="$PROJECT_DIR$/src/main/sql/SQL.java" />
@@ -237,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/main/aarray/HTrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/HMedianOfTwoSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/dynamicPrograming/EHouseRobber.java" />
+        <option value="$PROJECT_DIR$/src/main/dynamicPrograming/EClimbingStairs.java" />
       </list>
     </option>
   </component>
@@ -252,7 +267,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="803" />
@@ -297,6 +312,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicPrograming" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -306,7 +328,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540822613998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540860344703" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -339,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EHouseRobber">
+  <component name="RunManager" selected="Application.EClimbingStairs">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -391,6 +413,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration name="EClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamicPrograming.EClimbingStairs" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamicPrograming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EHouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamicPrograming.EHouseRobber" />
       <module name="algorithm" />
@@ -421,20 +457,6 @@
     </configuration>
     <configuration name="HTrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.aarray.HTrappingRainWater" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.aarray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MFindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.aarray.MFindPeakElement" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -562,19 +584,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MFindPeakElement" />
       <item itemvalue="Application.MWordSearch" />
       <item itemvalue="Application.HTrappingRainWater" />
       <item itemvalue="Application.HMedianOfTwoSortedArrays" />
       <item itemvalue="Application.EHouseRobber" />
+      <item itemvalue="Application.EClimbingStairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EClimbingStairs" />
         <item itemvalue="Application.EHouseRobber" />
         <item itemvalue="Application.HMedianOfTwoSortedArrays" />
         <item itemvalue="Application.HTrappingRainWater" />
         <item itemvalue="Application.MWordSearch" />
-        <item itemvalue="Application.MFindPeakElement" />
       </list>
     </recent_temporary>
   </component>
@@ -634,12 +656,12 @@
       <workItem from="1540100158379" duration="14810000" />
       <workItem from="1540254407131" duration="4286000" />
       <workItem from="1540375022065" duration="3547000" />
-      <workItem from="1540813822533" duration="6703000" />
+      <workItem from="1540813822533" duration="8089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220747000" />
+    <option name="totallyTimeSpent" value="222133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -651,8 +673,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="803" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -793,13 +814,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/aarray/RotatePrintMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/RemoveElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1142,8 +1156,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/EHouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="443">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/EClimbingStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
