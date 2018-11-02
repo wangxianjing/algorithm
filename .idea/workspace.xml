@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamicPrograming/MLongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamicPrograming/PerfectSquares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,25 +45,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="63" />
+          <entry key="java" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="ft" value="4" />
-          <entry key="java" value="17118" />
+          <entry key="java" value="17415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17118" />
+          <entry key="JAVA" value="17415" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="VTL" value="4" />
         </counts>
@@ -75,15 +75,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/aarray/HTrappingRainWater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/aarray/HMedianOfTwoSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/MLongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="345">
+              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,6 +115,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/PerfectSquares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61">
@@ -195,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/design/structure/proxy/dynamic/RequestProxy.java" />
         <option value="$PROJECT_DIR$/src/main/sql/SQL.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/ThreeSum.java" />
@@ -246,6 +249,7 @@
         <option value="$PROJECT_DIR$/src/main/dynamicPrograming/EHouseRobber.java" />
         <option value="$PROJECT_DIR$/src/main/dynamicPrograming/EClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/main/dynamicPrograming/MLongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/main/dynamicPrograming/PerfectSquares.java" />
       </list>
     </option>
   </component>
@@ -343,7 +347,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541143012980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541145386862" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -376,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MLongestIncreasingSubsequence">
+  <component name="RunManager" selected="Application.PerfectSquares">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -470,13 +474,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.aarray.HTrappingRainWater" />
+    <configuration name="MLongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamicPrograming.MLongestIncreasingSubsequence" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.aarray.*" />
+          <option name="PATTERN" value="main.dynamicPrograming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -484,8 +488,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MLongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamicPrograming.MLongestIncreasingSubsequence" />
+    <configuration name="PerfectSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamicPrograming.PerfectSquares" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -599,19 +603,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HTrappingRainWater" />
       <item itemvalue="Application.HMedianOfTwoSortedArrays" />
       <item itemvalue="Application.EHouseRobber" />
       <item itemvalue="Application.EClimbingStairs" />
       <item itemvalue="Application.MLongestIncreasingSubsequence" />
+      <item itemvalue="Application.PerfectSquares" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerfectSquares" />
         <item itemvalue="Application.MLongestIncreasingSubsequence" />
         <item itemvalue="Application.EClimbingStairs" />
         <item itemvalue="Application.EHouseRobber" />
         <item itemvalue="Application.HMedianOfTwoSortedArrays" />
-        <item itemvalue="Application.HTrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -673,12 +677,12 @@
       <workItem from="1540375022065" duration="3547000" />
       <workItem from="1540813822533" duration="11262000" />
       <workItem from="1540903538930" duration="1813000" />
-      <workItem from="1541138985657" duration="1194000" />
+      <workItem from="1541138985657" duration="2496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228313000" />
+    <option name="totallyTimeSpent" value="229615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,13 +836,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/aarray/ContainerWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/FindFirstAndLastPositionOfElementInSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1169,20 +1166,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="945" column="36" lean-forward="true" selection-start-line="945" selection-start-column="36" selection-end-line="945" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/MLongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="345">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/main/dynamicPrograming/PerfectSquares.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="945" column="36" lean-forward="true" selection-start-line="945" selection-start-column="36" selection-end-line="945" selection-end-column="36" />
+        <state relative-caret-position="230">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
