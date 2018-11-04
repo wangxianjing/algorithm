@@ -5,7 +5,7 @@ package main.dynamicPrograming;
  * 给一个正整数n，求n最少需要几个平方数相加得到
  * Created by wong on 2018/11/2.
  */
-public class PerfectSquares {
+public class MPerfectSquares {
 
     /**
      * https://leetcode.com/problems/perfect-squares/discuss/71488/Summary-of-4-different-solutions-(BFS-DP-static-DP-and-mathematics)
