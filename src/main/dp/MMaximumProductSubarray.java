@@ -1,4 +1,4 @@
-package main.dynamicPrograming;
+package main.dp;
 
 /**
  * 给定一个非负数组，求连续的子序列乘积的最大值

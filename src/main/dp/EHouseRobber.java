@@ -1,4 +1,4 @@
-package main.dynamicPrograming;
+package main.dp;
 
 /**
  * 给定一个整数数组，不能连续取挨着的数字，求能够取到的数字的和的最大值

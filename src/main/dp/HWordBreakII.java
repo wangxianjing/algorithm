@@ -1,4 +1,4 @@
-package main.dynamicPrograming;
+package main.dp;
 
 import java.util.ArrayList;
 import java.util.HashMap;

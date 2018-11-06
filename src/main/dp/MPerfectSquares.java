@@ -1,4 +1,4 @@
-package main.dynamicPrograming;
+package main.dp;
 
 /**
  * 平方数为（1，4，9，14，25。。。。。。）

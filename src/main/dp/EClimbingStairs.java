@@ -1,4 +1,4 @@
-package main.dynamicPrograming;
+package main.dp;
 
 /**
  * 爬楼梯，一次可以爬1或2台阶，N阶台阶一共多少种爬法
