@@ -2,6 +2,7 @@ package main.dp;
 
 import main.common.ArrayUtils;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 
 /**
@@ -35,7 +36,14 @@ public class MCoinChange {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[]{1, 2, 5};
-        System.out.println(otherGoodSolution(a, 11));
+        int[] a = new int[]{2, 3, 4, 5};
+//        System.out.println(otherGoodSolution1(a, 11));
+        System.out.println(Integer.valueOf("0033"));
+        System.out.println(Integer.valueOf("-003"));
+        System.out.println(Integer.valueOf("+003"));
+        System.out.println(Integer.valueOf(0x80000000));
+        System.out.println(Integer.decode("0x7fff0fff").shortValue());
+        System.out.println(new BigDecimal(3.32));
+        System.out.println(new BigDecimal("3.32"));
     }
 }

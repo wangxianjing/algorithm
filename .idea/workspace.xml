@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/dp/MCoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dp/HEditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dp/MCoinChangeII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/MCoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/dp/MCoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/MatrixShortestPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/dp/MatrixShortestPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dp/MCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dp/MCoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dp/MatrixShortestPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dp/MatrixShortestPathSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,37 +38,37 @@
     <session id="-172619085">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="20" />
+          <entry key="project.open.time.1" value="23" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="81" />
+          <entry key="java" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="81" />
+          <entry key="JAVA" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
           <entry key="ft" value="4" />
-          <entry key="java" value="20356" />
+          <entry key="java" value="20609" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20356" />
+          <entry key="JAVA" value="20609" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="VTL" value="4" />
         </counts>
@@ -76,19 +81,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/dp/MDecodeWays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/dp/MCoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="190">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,50 +95,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8280">
-              <caret line="581" column="34" selection-start-line="581" selection-start-column="34" selection-end-line="581" selection-end-column="34" />
+            <state relative-caret-position="75">
+              <caret line="625" column="7" selection-start-line="625" selection-start-column="7" selection-end-line="625" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/dp/EHouseRobber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/dp/MatrixShortestPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-7">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/dp/HWordBreakII.java">
+        <entry file="file://$PROJECT_DIR$/src/main/dp/HEditDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="7" selection-start-line="8" selection-start-column="5" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/dp/MLongestIncreasingSubsequence.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="444">
+              <caret line="646" column="28" selection-start-line="646" selection-start-column="28" selection-end-line="646" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/String.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27480">
-              <caret line="1901" column="18" selection-start-line="1901" selection-start-column="18" selection-end-line="1901" selection-end-column="18" />
+            <state relative-caret-position="-18594">
+              <caret line="1115" column="26" selection-start-line="1115" selection-start-column="16" selection-end-line="1115" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/dp/MCoinChangeII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="10" column="111" selection-start-line="10" selection-start-column="111" selection-end-line="10" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -192,6 +194,7 @@
       <find>DEFAULT_INITIAL_CAPACITY</find>
       <find>contains</find>
       <find>containsk</find>
+      <find>For inp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,9 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/aarray/RemoveDuplicatesFromStoredArray.java" />
-        <option value="$PROJECT_DIR$/src/main/aarray/RemoveElement.java" />
-        <option value="$PROJECT_DIR$/src/main/aarray/NextPermutation.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/SearchRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/FindFirstAndLastPositionOfElementInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/tree/rb/RBTreeNode.java" />
@@ -250,7 +250,10 @@
         <option value="$PROJECT_DIR$/src/main/dp/MLongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/main/dp/HDecodeWays.java" />
         <option value="$PROJECT_DIR$/src/main/dp/MDecodeWays.java" />
+        <option value="$PROJECT_DIR$/src/main/dp/MatrixShortestPathSum.java" />
+        <option value="$PROJECT_DIR$/src/main/dp/HEditDistance.java" />
         <option value="$PROJECT_DIR$/src/main/dp/MCoinChange.java" />
+        <option value="$PROJECT_DIR$/src/main/dp/MCoinChangeII.java" />
       </list>
     </option>
   </component>
@@ -267,8 +270,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="121" />
-    <option name="y" value="145" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
   </component>
@@ -291,6 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,19 +319,49 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541576389405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541666012017" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -361,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MCoinChange">
+  <component name="RunManager" selected="Application.MCoinChangeII">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -413,8 +446,8 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="HWordBreakII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dp.HWordBreakII" />
+    <configuration name="MCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dp.MCoinChange" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -427,8 +460,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dp.MCoinChange" />
+    <configuration name="MCoinChangeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dp.MCoinChangeII" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -584,19 +617,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HWordBreakII" />
       <item itemvalue="Application.MMaximumProductSubarray" />
       <item itemvalue="Application.MLongestPalindromicSubstring" />
       <item itemvalue="Application.MDecodeWays" />
       <item itemvalue="Application.MCoinChange" />
+      <item itemvalue="Application.MCoinChangeII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MCoinChangeII" />
         <item itemvalue="Application.MCoinChange" />
         <item itemvalue="Application.MDecodeWays" />
         <item itemvalue="Application.MLongestPalindromicSubstring" />
         <item itemvalue="Application.MMaximumProductSubarray" />
-        <item itemvalue="Application.HWordBreakII" />
       </list>
     </recent_temporary>
   </component>
@@ -662,12 +695,15 @@
       <workItem from="1541393036365" duration="6279000" />
       <workItem from="1541462027136" duration="6450000" />
       <workItem from="1541502905927" duration="3031000" />
-      <workItem from="1541575819879" duration="435000" />
+      <workItem from="1541575819879" duration="1078000" />
+      <workItem from="1541578887837" duration="39000" />
+      <workItem from="1541586122889" duration="1438000" />
+      <workItem from="1541659316960" duration="4970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251662000" />
+    <option name="totallyTimeSpent" value="258752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,7 +718,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -691,7 +727,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.2527881" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.29491946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34200743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,9 +735,9 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.25898388" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.30111524" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.32646048" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2788321" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2788104" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -833,58 +869,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/aarray/ConstructBinaryTreeFromPreorderAndInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/aarray/SpiralMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="51" column="21" selection-start-line="51" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/dp/MatrixShortestPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/dp/OneZeroPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/dp/BiggestChildSequenceSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/queue/CreateWindowMaxValueArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/aarray/NextPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1134,17 +1118,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8280">
-          <caret line="581" column="34" selection-start-line="581" selection-start-column="34" selection-end-line="581" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dp/EHouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/dp/BiggestChildSequenceSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1196,10 +1180,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="625" column="7" selection-start-line="625" selection-start-column="7" selection-end-line="625" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="646" column="28" selection-start-line="646" selection-start-column="28" selection-end-line="646" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18594">
+          <caret line="1115" column="26" selection-start-line="1115" selection-start-column="16" selection-end-line="1115" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/dp/MatrixShortestPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/dp/HEditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="8" selection-start-column="5" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dp/MCoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="190">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/dp/MCoinChangeII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="111" selection-start-line="10" selection-start-column="111" selection-end-line="10" selection-end-column="111" />
         </state>
       </provider>
     </entry>
