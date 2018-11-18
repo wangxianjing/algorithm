@@ -8,7 +8,7 @@ import main.common.ArrayUtils;
  * Output: [0,1,1,2,1,2] 输出0-5之间的每个数的1的个数
  * Created by wong on 2018/11/12.
  */
-public class HCountingBits {
+public class MCountingBits {
     /**
      * https://leetcode.com/problems/counting-bits/discuss/79539/Three-Line-Java-Solution
      * @param num
