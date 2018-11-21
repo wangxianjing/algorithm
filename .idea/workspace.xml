@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/sstring/EFirstUniqueCharacterInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sstring/EReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,25 +45,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="108" />
+          <entry key="java" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="108" />
+          <entry key="JAVA" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
           <entry key="ft" value="4" />
-          <entry key="java" value="23594" />
+          <entry key="java" value="23709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23594" />
+          <entry key="JAVA" value="23709" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="VTL" value="4" />
         </counts>
@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/sstring/EFirstUniqueCharacterInAString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+            <state relative-caret-position="300">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/dp/MPalindromicSubstrings.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/sstring/EReverseString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -201,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/aarray/RotateImage.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/SpiralMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/JumpGame.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/MergeIntevals.java" />
@@ -252,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/main/dp/MUniqueBinarySearchTreesii.java" />
         <option value="$PROJECT_DIR$/src/main/dp/MTargetSum.java" />
         <option value="$PROJECT_DIR$/src/main/sstring/EFirstUniqueCharacterInAString.java" />
+        <option value="$PROJECT_DIR$/src/main/sstring/EReverseString.java" />
       </list>
     </option>
   </component>
@@ -333,7 +333,7 @@
     <property name="SearchEverywhereHistoryKey" value="path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542802570611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542803101711" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -366,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EFirstUniqueCharacterInAString">
+  <component name="RunManager" selected="Application.EReverseString">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -446,13 +446,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MCountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dp.MCountingBits" />
+    <configuration name="EReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.sstring.EReverseString" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dp.*" />
+          <option name="PATTERN" value="main.sstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -589,19 +589,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MCountingBits" />
       <item itemvalue="Application.MPalindromicSubstrings" />
       <item itemvalue="Application.EReverseInteger" />
       <item itemvalue="Application.MTargetSum" />
       <item itemvalue="Application.EFirstUniqueCharacterInAString" />
+      <item itemvalue="Application.EReverseString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EReverseString" />
         <item itemvalue="Application.EFirstUniqueCharacterInAString" />
         <item itemvalue="Application.MTargetSum" />
         <item itemvalue="Application.EReverseInteger" />
         <item itemvalue="Application.MPalindromicSubstrings" />
-        <item itemvalue="Application.MCountingBits" />
       </list>
     </recent_temporary>
   </component>
@@ -679,12 +679,12 @@
       <workItem from="1542509249815" duration="2437000" />
       <workItem from="1542638069263" duration="5035000" />
       <workItem from="1542727597054" duration="2657000" />
-      <workItem from="1542799896658" duration="2630000" />
+      <workItem from="1542799896658" duration="3167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276841000" />
+    <option name="totallyTimeSpent" value="277378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +699,7 @@
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -708,7 +708,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.24782608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" weight="0.24782608" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.34057972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -716,7 +716,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.15652174" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" visible="true" weight="0.15652174" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.35072464" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27826086" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
@@ -856,13 +856,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/aarray/MFindTheDuplicateNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/list/ZMLinkedListCycleII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1208,11 +1201,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sstring/EFirstUniqueCharacterInAString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+        <state relative-caret-position="300">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sstring/EReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
