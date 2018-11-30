@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassExmaple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListExmaple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sstring/MLetterCombinationsPhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,14 +42,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="125" />
+          <entry key="java" value="126" />
           <entry key="out" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="125" />
+          <entry key="JAVA" value="126" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -61,12 +57,12 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="ft" value="4" />
-          <entry key="java" value="25445" />
+          <entry key="java" value="25978" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25445" />
+          <entry key="JAVA" value="25978" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="VTL" value="4" />
         </counts>
@@ -87,14 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ListExmaple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="20" selection-start-line="20" selection-end-line="21" />
+            <state relative-caret-position="71">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/sstring/MLetterCombinationsPhoneNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-167">
+              <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -113,15 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
               <caret line="146" column="16" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/stack/BaseStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -205,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/aarray/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/MoveZeros.java" />
@@ -256,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/main/java/AClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClassExmaple.java" />
         <option value="$PROJECT_DIR$/src/main/java/ListExmaple.java" />
+        <option value="$PROJECT_DIR$/src/main/sstring/MLetterCombinationsPhoneNumber.java" />
       </list>
     </option>
   </component>
@@ -318,7 +314,7 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sstring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -337,7 +333,7 @@
     <property name="SearchEverywhereHistoryKey" value="path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543574291650" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543592306380" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -370,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListExmaple">
+  <component name="RunManager" selected="Application.MLetterCombinationsPhoneNumber">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -478,8 +474,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MGroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.sstring.MGroupAnagrams" />
+    <configuration name="MLetterCombinationsPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.sstring.MLetterCombinationsPhoneNumber" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -593,19 +589,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MGroupAnagrams" />
       <item itemvalue="Application.MGenerateParentheses" />
       <item itemvalue="Application.EnumExample" />
       <item itemvalue="Application.ClassExmaple" />
       <item itemvalue="Application.ListExmaple" />
+      <item itemvalue="Application.MLetterCombinationsPhoneNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MLetterCombinationsPhoneNumber" />
         <item itemvalue="Application.ListExmaple" />
         <item itemvalue="Application.ClassExmaple" />
         <item itemvalue="Application.EnumExample" />
         <item itemvalue="Application.MGenerateParentheses" />
-        <item itemvalue="Application.MGroupAnagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -691,12 +687,12 @@
       <workItem from="1543545485109" duration="141000" />
       <workItem from="1543567477648" duration="466000" />
       <workItem from="1543567962648" duration="488000" />
-      <workItem from="1543572535301" duration="2077000" />
+      <workItem from="1543572535301" duration="4242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287300000" />
+    <option name="totallyTimeSpent" value="289465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,8 +716,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.24854651" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.34057972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" weight="0.24854651" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" visible="true" weight="0.46802327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32763532" />
@@ -857,6 +853,12 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/sstring/MLetterCombinationsPhoneNumber.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -868,13 +870,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/common/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dp/EClimbingStairs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1230,11 +1225,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ListExmaple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" selection-start-line="20" selection-end-line="21" />
+        <state relative-caret-position="71">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sstring/MLetterCombinationsPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
         </state>
       </provider>
     </entry>
