@@ -28,11 +28,13 @@ public class SerialDemo {
         private String password;
         private String sex;
         private static int anInt=32;
+        private transient String transientString;
 
         public User(String userName, String password, String sex) {
             this.userName = userName;
             this.password = password;
             this.sex = sex;
+            this.transientString ="transientString********";
         }
         //全参构造方法、get和set方法省略
 

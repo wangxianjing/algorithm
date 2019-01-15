@@ -3,7 +3,7 @@ package main.java;
 /**
  * Created by wong on 2018/11/30.
  */
-public class AClass {
+public class AClass implements Cloneable {
 
     String s;
     int age;
@@ -31,5 +31,10 @@ public class AClass {
     public AClass(String s, int age) {
         this.s = s;
         this.age = age;
+    }
+
+    public AClass clone() throws CloneNotSupportedException
+    {
+        return (AClass)super.clone();
     }
 }
