@@ -1,6 +1,8 @@
 package main.java;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by wong on 2018/11/22.
@@ -12,15 +14,18 @@ public class SerialDemo {
         FileOutputStream fos = new FileOutputStream("/Users/wangjing/tmp/object.out");
         ObjectOutputStream oos = new ObjectOutputStream(fos);
         User user1 = new User("xuliugen", "123456", "male");
-        oos.writeObject(user1);
+        User user11 = new User("wong", "d", "male");
+        List<User> list = new ArrayList<>();
+        list.add(user1);
+        list.add(user11);
+        oos.writeObject(list);
         oos.flush();
         oos.close();
         //反序列化
         FileInputStream fis = new FileInputStream("/Users/wangjing/tmp/object.out");
         ObjectInputStream ois = new ObjectInputStream(fis);
-        User user2 = (User) ois.readObject();
-        System.out.println(user2.getUserName()+ " " +
-                user2.getPassword() + " " + user2.getSex());
+        List<User> newList = (List<User>) ois.readObject();
+        System.out.println(newList);
         //反序列化的输出结果为：xuliugen 123456 male
     }
     public static class User implements Serializable {
@@ -69,6 +74,16 @@ public class SerialDemo {
 
         public static void setAnInt(int anInt) {
             User.anInt = anInt;
+        }
+
+        @Override
+        public String toString() {
+            return "User{" +
+                    "userName='" + userName + '\'' +
+                    ", password='" + password + '\'' +
+                    ", sex='" + sex + '\'' +
+                    ", transientString='" + transientString + '\'' +
+                    '}';
         }
     }
 
