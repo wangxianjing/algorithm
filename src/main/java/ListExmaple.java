@@ -1,6 +1,7 @@
 package main.java;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -74,7 +75,7 @@ public class ListExmaple {
             list.add(i);
         }
 
-        List<Integer> integerList = list.subList(100, 200);
+        List<Integer> integerList = list.subList(100, 105);
         integerList.clear();
 
 //        for (int j = 0; j < list.size(); j++) {
@@ -86,8 +87,49 @@ public class ListExmaple {
         System.out.println(list);
     }
 
+
+    public static void testArrayList() {
+
+        List<String> str1 = new ArrayList<String>();
+        str1.add("ab");
+        str1.add("bc");
+        Object[] strs1 = str1.toArray();
+        strs1[0] = new Object();
+        strs1[1] = new Integer(3);
+        System.out.println("strs1:");
+        System.out.println(str1.toString());
+// class [Ljava.lang.Object;
+        System.out.println(strs1.getClass());
+// class java.util.ArrayList
+        System.out.println(str1.getClass());
+        System.out.println(str1.get(0).getClass());
+        System.out.println(strs1[0].getClass());
+        System.out.println(strs1[1].getClass());
+
+
+        List<String> str2 = Arrays.asList(new String[]{"ab", "bc"});
+        Object[] strs2 = str2.toArray();
+        System.out.println("strs2:");
+        System.out.println(str2.toString());
+// class [Ljava.lang.String;
+        System.out.println(strs2.getClass());
+// class java.util.Arrays$ArrayList
+        System.out.println(str2.getClass());
+        System.out.println(str2.get(0).getClass());
+        System.out.println(strs2[0].getClass());
+//  java.lang.ArrayStoreException
+//        strs2[0] = new Object();
+
+    }
+
+    public static void test() {
+        Object[] o = new Object[3];
+        o[0] = new Object();
+        o[1] = new String();
+    }
+
     public static void main(String[] args) {
-        testSubList();
+        testArrayList();
     }
 
 
