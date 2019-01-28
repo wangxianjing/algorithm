@@ -37,4 +37,12 @@ public class AClass implements Cloneable {
     {
         return (AClass)super.clone();
     }
+
+    @Override
+    public String toString() {
+        return "AClass{" +
+                "s='" + s + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

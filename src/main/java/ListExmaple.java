@@ -1,5 +1,6 @@
 package main.java;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -128,8 +129,27 @@ public class ListExmaple {
         o[1] = new String();
     }
 
-    public static void main(String[] args) {
-        testArrayList();
+    public static void testTrimToSize() throws NoSuchFieldException, IllegalAccessException {
+        ArrayList list=new ArrayList(12);
+        for (int i = 0; i < 10; i++) {
+            list.add(i);
+        }
+        Field field=list.getClass().getDeclaredField("elementData");
+        field.setAccessible(true);
+        Object[] f= (Object[]) field.get(list);
+        System.out.println(list.size());
+        System.out.println("list的容量"+f.length);
+        list.trimToSize();
+
+        Field field1=list.getClass().getDeclaredField("elementData");
+        field.setAccessible(true);
+        Object[] f1= (Object[]) field.get(list);
+        System.out.println(list.size());
+        System.out.println("list的容量"+f1.length);
+    }
+
+    public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+        testTrimToSize();
     }
 
 
