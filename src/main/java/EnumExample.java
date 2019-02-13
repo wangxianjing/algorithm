@@ -5,8 +5,15 @@ package main.java;
  */
 public class EnumExample {
     public enum A {
-        AA,
-        BB;
+        AA("1",1),
+        BB("2",2);
+        private String desc;
+        private int code;
+
+        A(String desc, int code) {
+            this.desc = desc;
+            this.code = code;
+        }
     }
 
     /**
@@ -26,8 +33,10 @@ public class EnumExample {
         }
     }
 
-    // 枚举不能传
     public static void main(String[] args) {
-        canNotNull();
+        //测试枚举valueOf
+        System.out.println(A.valueOf("AA").code);
+
+//        canNotNull();
     }
 }
