@@ -5,8 +5,8 @@ package main.java;
  */
 public class EnumExample {
     public enum A {
-        AA("1",1),
-        BB("2",2);
+        AA("1", 1),
+        BB("2", 2);
         private String desc;
         private int code;
 
@@ -36,7 +36,10 @@ public class EnumExample {
     public static void main(String[] args) {
         //测试枚举valueOf
         System.out.println(A.valueOf("AA").code);
-
-//        canNotNull();
+        StringBuffer sb = new StringBuffer();
+        sb.append("1").append(",").append("2").append(",");
+        System.out.println(sb.toString());
+        System.out.println(sb.delete(sb.length() - 1, sb.length()).toString());
+        //        canNotNull();
     }
 }

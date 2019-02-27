@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayDeque1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayDequeExample.java" afterDir="false" />
+    <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="测试枚举value of">
+      <change afterPath="$PROJECT_DIR$/src/main/java/NoClassDefAndFoundErrorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/java/EnumExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EnumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EnumExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,27 +48,27 @@
     <session id="-172619085">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="70" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="49" />
+          <entry key="project.closed" value="72" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="50" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="8" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="72" />
+          <entry key="project.opened" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="200" />
+          <entry key="java" value="204" />
           <entry key="out" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="200" />
+          <entry key="JAVA" value="204" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -73,13 +76,14 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="ft" value="4" />
-          <entry key="java" value="28546" />
+          <entry key="java" value="28691" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28546" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="28691" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="VTL" value="4" />
         </counts>
       </usages-collector>
@@ -87,6 +91,50 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="algorithm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDeque1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7320">
+              <caret line="545" selection-start-line="545" selection-end-line="547" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDequeExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EnumExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NoClassDefAndFoundErrorExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/aarray/MFindPeakElement.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/test.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/MWordSearch.java" />
         <option value="$PROJECT_DIR$/src/main/aarray/HTrappingRainWater.java" />
@@ -171,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/main/sstring/EValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/main/sstring/MGroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/main/sstring/MGenerateParentheses.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EnumExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClassExmaple.java" />
         <option value="$PROJECT_DIR$/src/main/sstring/MLetterCombinationsPhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/CloneExample.java" />
@@ -190,6 +236,8 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ArrayDeque1.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayDeque1.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayDequeExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EnumExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NoClassDefAndFoundErrorExample.java" />
       </list>
     </option>
   </component>
@@ -205,10 +253,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -229,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,14 +303,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -305,14 +346,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="link&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class&#10;h&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549201769645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551267351974" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -345,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayDequeExample">
+  <component name="RunManager" selected="Application.NoClassDefAndFoundErrorExample">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -425,8 +465,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.HashMapExample" />
+    <configuration name="EnumExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.EnumExample" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -439,8 +479,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ListExmaple" />
+    <configuration name="NoClassDefAndFoundErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.NoClassDefAndFoundErrorExample" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -568,19 +608,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ListExmaple" />
-      <item itemvalue="Application.HashMapExample" />
       <item itemvalue="Application.UnsafeExample" />
       <item itemvalue="Application.ConcurrentHashMapExample" />
       <item itemvalue="Application.ArrayDequeExample" />
+      <item itemvalue="Application.EnumExample" />
+      <item itemvalue="Application.NoClassDefAndFoundErrorExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NoClassDefAndFoundErrorExample" />
+        <item itemvalue="Application.EnumExample" />
         <item itemvalue="Application.ArrayDequeExample" />
         <item itemvalue="Application.ConcurrentHashMapExample" />
         <item itemvalue="Application.UnsafeExample" />
-        <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="Application.ListExmaple" />
       </list>
     </recent_temporary>
   </component>
@@ -684,11 +724,29 @@
       <workItem from="1549066238786" duration="1154000" />
       <workItem from="1549165050158" duration="7799000" />
       <workItem from="1549684926145" duration="5000" />
+      <workItem from="1550024021159" duration="342000" />
+      <workItem from="1550565925328" duration="753000" />
+      <workItem from="1551266768130" duration="492000" />
     </task>
+    <task id="LOCAL-00001" summary="新增队列的测试">
+      <created>1550024078305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550024078305</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试枚举value of">
+      <created>1550024334083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550024334083</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374390000" />
+    <option name="totallyTimeSpent" value="375977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,9 +758,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.27038628" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.2811159" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.22961374" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -711,7 +770,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.29913294" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.29710144" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.46802327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,7 +788,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32904148" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.32904148" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3297568" />
@@ -773,6 +832,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增队列的测试" />
+    <MESSAGE value="测试枚举value of" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试枚举value of" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,14 +935,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/InnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SerilizibaleExmaple.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5955">
@@ -1208,17 +1264,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDequeExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDeque1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="7320">
+          <caret line="545" selection-start-line="545" selection-end-line="547" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDeque1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDequeExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="545" selection-start-line="545" selection-end-line="547" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EnumExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NoClassDefAndFoundErrorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
