@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="测试枚举value of">
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/main/math/Sqrt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dp/EHappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/CallableTread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/RunnableThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadSubClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/dp/EHappyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/dp/EHappyNumber.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +60,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="208" />
+          <entry key="java" value="215" />
           <entry key="out" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -66,7 +68,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="208" />
+          <entry key="JAVA" value="215" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -75,13 +77,13 @@
         <counts>
           <entry key="dummy" value="6" />
           <entry key="ft" value="4" />
-          <entry key="java" value="30294" />
+          <entry key="java" value="30786" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30294" />
+          <entry key="JAVA" value="30786" />
           <entry key="PLAIN_TEXT" value="38" />
           <entry key="VTL" value="4" />
         </counts>
@@ -94,58 +96,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDeque1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7320">
-              <caret line="545" selection-start-line="545" selection-end-line="547" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ArrayDequeExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EnumExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="379">
+              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/UnsafeExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+            <state relative-caret-position="146">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/sql/SQL.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="-1714">
+              <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadSubClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/math/Dengbishulie.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/RunnableThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/CallableTread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="446" column="11" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
+              <folding>
+                <element signature="e#15020#15021#0" expanded="true" />
+                <element signature="e#15084#15085#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConcurrentHashMapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -159,24 +183,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/dp/EHappyNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="171">
+              <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
               <folding>
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NoClassDefAndFoundErrorExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -234,12 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/aarray/HMedianOfTwoSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/main/dynamicPrograming/EHouseRobber.java" />
-        <option value="$PROJECT_DIR$/src/main/dynamicPrograming/EClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/src/main/dynamicPrograming/MLongestIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/main/dynamicPrograming/PerfectSquares.java" />
-        <option value="$PROJECT_DIR$/src/main/dynamicPrograming/MWordBreak.java" />
         <option value="$PROJECT_DIR$/src/main/dynamicPrograming/HWordBreakII.java" />
         <option value="$PROJECT_DIR$/src/main/dynamicPrograming/MMaximumProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/main/dynamicPrograming/MLongestPalindromicSubstring.java" />
@@ -285,6 +294,12 @@
         <option value="$PROJECT_DIR$/src/main/math/Dengbishulie.java" />
         <option value="$PROJECT_DIR$/src/main/math/Sqrt.java" />
         <option value="$PROJECT_DIR$/src/main/dp/EHappyNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/TreadExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/RunnalbleThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/RunnableThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/CallaleTread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/CallableTread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ThreadSubClass.java" />
       </list>
     </option>
   </component>
@@ -356,6 +371,28 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,36 +409,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -411,10 +418,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="Enum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class&#10;link&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class&#10;h&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
+    <property name="SearchEverywhereHistoryKey" value="object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java&#10;Enum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class&#10;link&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class&#10;h&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554218819401" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554255296227" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -447,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EHappyNumber">
+  <component name="RunManager" selected="Application.ThreadSubClass">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -499,13 +506,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="Dengbishulie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.math.Dengbishulie" />
+    <configuration name="CallableTread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.thread.CallableTread" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.math.*" />
+          <option name="PATTERN" value="main.java.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,13 +520,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EHappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dp.EHappyNumber" />
+    <configuration name="ConcurrentHashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.concurrent.ConcurrentHashMapExample" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dp.*" />
+          <option name="PATTERN" value="main.java.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -527,13 +534,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.EnumExample" />
+    <configuration name="RunnableThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.thread.RunnableThread" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.*" />
+          <option name="PATTERN" value="main.java.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -541,13 +548,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoClassDefAndFoundErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.NoClassDefAndFoundErrorExample" />
+    <configuration name="ThreadSubClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.thread.ThreadSubClass" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.*" />
+          <option name="PATTERN" value="main.java.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -555,13 +562,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.math.Sqrt" />
+    <configuration name="UnsafeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.concurrent.UnsafeExample" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.math.*" />
+          <option name="PATTERN" value="main.java.concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -670,19 +677,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.EnumExample" />
-      <item itemvalue="Application.NoClassDefAndFoundErrorExample" />
-      <item itemvalue="Application.Dengbishulie" />
-      <item itemvalue="Application.Sqrt" />
-      <item itemvalue="Application.EHappyNumber" />
+      <item itemvalue="Application.ConcurrentHashMapExample" />
+      <item itemvalue="Application.UnsafeExample" />
+      <item itemvalue="Application.ThreadSubClass" />
+      <item itemvalue="Application.RunnableThread" />
+      <item itemvalue="Application.CallableTread" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EHappyNumber" />
-        <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.Dengbishulie" />
-        <item itemvalue="Application.NoClassDefAndFoundErrorExample" />
-        <item itemvalue="Application.EnumExample" />
+        <item itemvalue="Application.ThreadSubClass" />
+        <item itemvalue="Application.CallableTread" />
+        <item itemvalue="Application.RunnableThread" />
+        <item itemvalue="Application.UnsafeExample" />
+        <item itemvalue="Application.ConcurrentHashMapExample" />
       </list>
     </recent_temporary>
   </component>
@@ -793,7 +800,7 @@
       <workItem from="1553529282638" duration="244000" />
       <workItem from="1553570890697" duration="1045000" />
       <workItem from="1553865500743" duration="1093000" />
-      <workItem from="1554207569597" duration="7957000" />
+      <workItem from="1554207569597" duration="12991000" />
     </task>
     <task id="LOCAL-00001" summary="新增队列的测试">
       <created>1550024078305</created>
@@ -820,7 +827,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389937000" />
+    <option name="totallyTimeSpent" value="394971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,7 +840,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.29685265" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.22961374" />
@@ -852,9 +858,9 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.5782609" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" visible="true" weight="0.5782609" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.35072464" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.27391306" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27391306" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -1016,27 +1022,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="445" column="16" selection-start-line="445" selection-start-column="16" selection-end-line="445" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="665" column="30" selection-start-line="665" selection-start-column="19" selection-end-line="665" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="3660" column="21" lean-forward="true" selection-start-line="3660" selection-start-column="21" selection-end-line="3660" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1184,13 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ListExmaple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1216,20 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="2064" column="17" selection-start-line="2064" selection-start-column="17" selection-end-line="2064" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/UnsafeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3285">
-          <caret line="260" column="6" selection-start-line="260" selection-start-column="6" selection-end-line="260" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1289,13 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConcurrentHashMapExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -1317,20 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EnumExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1367,12 +1310,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/dp/EHappyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="171">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
           <folding>
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EnumExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConcurrentHashMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/UnsafeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1714">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="446" column="11" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/RunnableThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/CallableTread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ThreadSubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
