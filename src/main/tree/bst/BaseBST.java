@@ -5,7 +5,6 @@ package main.tree.bst;
  */
 public class BaseBST {
     private static TreeNode treeNode1;
-    private static TreeNode treeNode2;
 
     static {
         treeNode1 = new TreeNode();
