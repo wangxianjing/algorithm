@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="测试枚举value of">
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/compositePattern/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/RedShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/ShapeDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +62,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="323" />
+          <entry key="java" value="329" />
           <entry key="out" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -67,23 +70,23 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="323" />
+          <entry key="JAVA" value="329" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="7" />
+          <entry key="dummy" value="14" />
           <entry key="ft" value="4" />
-          <entry key="java" value="39409" />
+          <entry key="java" value="39681" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="39409" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="JAVA" value="39681" />
+          <entry key="PLAIN_TEXT" value="46" />
           <entry key="VTL" value="4" />
         </counts>
       </usages-collector>
@@ -95,69 +98,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/bridgePattern/GreenCircle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/Criteria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaMale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaFemal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaSingle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -165,15 +105,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/AndCriteria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -206,11 +137,82 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/ShapeDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/RedShapeDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -268,13 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletionOne.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonFive.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonFour.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonOne.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonThree.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonTwo.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/FatherInterface.java" />
         <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/Client.java" />
         <option value="$PROJECT_DIR$/src/main/design/creational/builderPattern/Item.java" />
         <option value="$PROJECT_DIR$/src/main/design/creational/builderPattern/Packing.java" />
@@ -319,6 +314,13 @@
         <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Emplyee.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Circal.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/ShapeDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/RedRectangleDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/RedShapeDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Client.java" />
       </list>
     </option>
   </component>
@@ -399,7 +401,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="compositePattern" type="462c0819:PsiDirectoryNode" />
+              <item name="decoratorPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,7 +416,7 @@
     <property name="SearchEverywhereHistoryKey" value="object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java&#10;Enum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class&#10;link&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class&#10;h&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554727962659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554736331805" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -449,7 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -529,13 +531,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.design.creational.protoType.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.design.structure.decoratorPattern.Client" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.design.creational.protoType.*" />
+          <option name="PATTERN" value="main.design.structure.decoratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -672,19 +674,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -800,7 +802,7 @@
       <workItem from="1554291739376" duration="12112000" />
       <workItem from="1554622195396" duration="11319000" />
       <workItem from="1554637731123" duration="638000" />
-      <workItem from="1554693302437" duration="18861000" />
+      <workItem from="1554693302437" duration="20205000" />
     </task>
     <task id="LOCAL-00001" summary="新增队列的测试">
       <created>1550024078305</created>
@@ -827,7 +829,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439179000" />
+    <option name="totallyTimeSpent" value="440523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1029,66 +1031,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/abstractFactory/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/factoryPattern/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonFour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonFive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/design/creational/singletonPattern/FatherInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1529,8 +1471,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/ShapeDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/RedShapeDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/decoratorPattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
