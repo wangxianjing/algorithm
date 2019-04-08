@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="测试枚举value of">
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/AndCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaFemal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaMale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/design/structure/compositePattern/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/bridgePattern/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/design/structure/bridgePattern/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +59,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="321" />
+          <entry key="java" value="323" />
           <entry key="out" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -72,7 +67,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="321" />
+          <entry key="JAVA" value="323" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -81,13 +76,13 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="ft" value="4" />
-          <entry key="java" value="39037" />
+          <entry key="java" value="39409" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="39037" />
+          <entry key="JAVA" value="39409" />
           <entry key="PLAIN_TEXT" value="39" />
           <entry key="VTL" value="4" />
         </counts>
@@ -99,15 +94,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/bridgePattern/DrawAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/design/structure/bridgePattern/GreenCircle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -192,11 +178,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,14 +191,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/design/structure/bridgePattern/RedCircle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/compositePattern/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="328">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -270,9 +268,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/design/creational/abstractFactory/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/abstractFactory/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/design/creational/factoryPattern/Factory.java" />
         <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletionOne.java" />
         <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonFive.java" />
         <option value="$PROJECT_DIR$/src/main/design/creational/singletonPattern/SingletonFour.java" />
@@ -319,8 +314,11 @@
         <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaMale.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaFemal.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/AndCriteria.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaSingle.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Emplyee.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java" />
       </list>
     </option>
   </component>
@@ -401,66 +399,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="filterPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="sstring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
+              <item name="compositePattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,7 +414,7 @@
     <property name="SearchEverywhereHistoryKey" value="object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java&#10;Enum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class&#10;link&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class&#10;h&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554726373180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554727962659" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -510,7 +449,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -576,13 +515,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.design.creational.builderPattern.Client" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.design.structure.compositePattern.Client" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.design.creational.builderPattern.*" />
+          <option name="PATTERN" value="main.design.structure.compositePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -733,19 +672,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -861,7 +800,7 @@
       <workItem from="1554291739376" duration="12112000" />
       <workItem from="1554622195396" duration="11319000" />
       <workItem from="1554637731123" duration="638000" />
-      <workItem from="1554693302437" duration="17670000" />
+      <workItem from="1554693302437" duration="18861000" />
     </task>
     <task id="LOCAL-00001" summary="新增队列的测试">
       <created>1550024078305</created>
@@ -888,7 +827,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437988000" />
+    <option name="totallyTimeSpent" value="439179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -903,7 +842,7 @@
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" weight="0.31831187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.31831187" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.22961374" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -912,7 +851,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.26956522" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" weight="0.26956522" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.33236995" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -920,7 +859,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.20434782" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" visible="true" weight="0.20434782" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.35072464" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27391306" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
@@ -1090,20 +1029,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/abstractFactory/FactoryHuawei.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/design/creational/abstractFactory/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/design/creational/abstractFactory/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1580,11 +1505,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/compositePattern/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
