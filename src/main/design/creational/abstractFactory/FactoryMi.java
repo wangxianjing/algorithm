@@ -4,8 +4,14 @@ package main.design.creational.abstractFactory;
  * Created by wong on 2019/4/3.
  */
 public class FactoryMi implements AbstractFactory {
+
     @Override
-    public AbstractProduct createProduct() {
-        return new ProductMi();
+    public Phone getPhone() {
+        return new MiPhone();
+    }
+
+    @Override
+    public Paid getPaid() {
+        return new MiPaid();
     }
 }

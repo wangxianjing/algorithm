@@ -9,13 +9,13 @@ import main.common.ArrayUtils;
 public class BigNumber {
 
     public static int[] count(int n) {
-        int[] result = new int[30];
+        int[] result = new int[300];
         int flag = 1;
-        int carry = 0;
         int res = 0;
         int j;
         result[0] = 1;
         for (int i = 2; i <= n; i++) {
+            int carry = 0;
             for (j = 1; j <= flag; j++) {
                 res = result[j - 1] * i + carry;
                 result[j - 1] = res % 10;
@@ -53,7 +53,7 @@ public class BigNumber {
     }
 
     public static void main(String[] args) {
-        int[] count = count(15);
+        int[] count = count(110);
         ArrayUtils.print(count);
 //        multiply(a, 9);
 //        System.out.println(a[0]);
