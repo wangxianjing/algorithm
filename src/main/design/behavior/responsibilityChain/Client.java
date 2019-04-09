@@ -1,4 +1,4 @@
-package main.design.structure.responsibilityChain;
+package main.design.behavior.responsibilityChain;
 
 /**
  * 要点：每个有权责的都要经过他的手处理一遍，这里例子不合适，层层审批的例子更合适

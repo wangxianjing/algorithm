@@ -1,4 +1,4 @@
-package main.design.structure.responsibilityChain;
+package main.design.behavior.responsibilityChain;
 
 /**
  * Created by wong on 2019/4/9.
