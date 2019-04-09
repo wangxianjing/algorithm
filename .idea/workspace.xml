@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="测试枚举value of">
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/DoubleObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/LongObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StopState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/designPattern/behavior/observerPattern/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/designPattern/behavior/observerPattern/Client.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +62,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="388" />
+          <entry key="java" value="393" />
           <entry key="out" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -69,7 +70,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="388" />
+          <entry key="JAVA" value="393" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -78,13 +79,13 @@
         <counts>
           <entry key="dummy" value="15" />
           <entry key="ft" value="4" />
-          <entry key="java" value="43106" />
+          <entry key="java" value="43474" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="43106" />
+          <entry key="JAVA" value="43474" />
           <entry key="PLAIN_TEXT" value="47" />
           <entry key="VTL" value="4" />
         </counts>
@@ -96,77 +97,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mementoPattern/Memento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mementoPattern/Original.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mementoPattern/MementoList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mementoPattern/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -206,11 +136,70 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StartState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StopState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,14 +207,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            <state relative-caret-position="182">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
                 <element signature="e#325#326#0" expanded="true" />
                 <element signature="e#171#172#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#555#556#0" expanded="true" />
               </folding>
             </state>
@@ -285,12 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/design/structure/facadePattern/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/facadePattern/CIrcle.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/facadePattern/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/facadePattern/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/facadePattern/Square.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/facadePattern/ShapeMaker.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/facadePattern/Client.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/flyWeight/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/flyWeight/Circle.java" />
@@ -332,10 +316,16 @@
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/mementoPattern/Original.java" />
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/mementoPattern/Client.java" />
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Observer.java" />
-        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/LongObserver.java" />
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/DoubleObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StartAction.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/State.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StartState.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StopState.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Client.java" />
       </list>
     </option>
   </component>
@@ -415,7 +405,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="designPattern" type="462c0819:PsiDirectoryNode" />
               <item name="behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="observerPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="statePattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -492,7 +482,7 @@
     <property name="SearchEverywhereHistoryKey" value="stock&#9;PSI&#9;JAVA://main.aarray.EBestTimeToBuyAndSellStock&#10;object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java&#10;Enum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class&#10;link&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class&#10;h&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554801226598" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554803695960" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -527,7 +517,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -579,20 +569,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.designPattern.behavior.interpreterPattern.Client" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.designPattern.behavior.interpreterPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.designPattern.behavior.interatorPattern.Client" />
       <module name="algorithm" />
@@ -628,6 +604,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.designPattern.behavior.mementoPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.designPattern.behavior.statePattern.Client" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.designPattern.behavior.statePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -792,19 +782,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (4)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -921,7 +911,7 @@
       <workItem from="1554622195396" duration="11319000" />
       <workItem from="1554637731123" duration="638000" />
       <workItem from="1554693302437" duration="30081000" />
-      <workItem from="1554781248534" duration="6850000" />
+      <workItem from="1554781248534" duration="8200000" />
     </task>
     <task id="LOCAL-00001" summary="新增队列的测试">
       <created>1550024078305</created>
@@ -948,7 +938,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="457249000" />
+    <option name="totallyTimeSpent" value="458599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,7 +962,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" weight="0.26956522" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.26956522" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.33236995" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -980,7 +970,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" visible="true" weight="0.20434782" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.20434782" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.35072464" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27391306" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
@@ -1150,41 +1140,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/flyWeight/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/flyWeight/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/proxy/sstatic/ProxySubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/proxy/sstatic/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/proxy/sstatic/RealSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/responsibilityChain/LoggerChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1540,21 +1495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/LongObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1577,10 +1517,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/observerPattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StartState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/StopState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/statePattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
