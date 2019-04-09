@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="800efb7d-ff6f-4582-be00-21827ab1d93c" name="Default" comment="测试枚举value of">
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/main/designPattern/behavior/interatorPattern/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/main/designPattern/behavior/interatorPattern/Client.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +60,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="376" />
+          <entry key="java" value="379" />
           <entry key="out" value="1" />
           <entry key="sql" value="1" />
         </counts>
@@ -68,7 +68,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="376" />
+          <entry key="JAVA" value="379" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -77,13 +77,13 @@
         <counts>
           <entry key="dummy" value="15" />
           <entry key="ft" value="4" />
-          <entry key="java" value="42089" />
+          <entry key="java" value="42336" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="42089" />
+          <entry key="JAVA" value="42336" />
           <entry key="PLAIN_TEXT" value="47" />
           <entry key="VTL" value="4" />
         </counts>
@@ -95,41 +95,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/interpreterPattern/Expression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/interpreterPattern/TerminalExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/interpreterPattern/OrExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-              <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/interpreterPattern/AndExpression.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -185,11 +150,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="195">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/ChatRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -256,9 +258,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/AndCriteria.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/CriteriaSingle.java" />
-        <option value="$PROJECT_DIR$/src/main/design/structure/filterPattern/Client.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Emplyee.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/design/structure/compositePattern/Client.java" />
@@ -307,6 +306,9 @@
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/Iterator.java" />
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/NameRepository.java" />
         <option value="$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/ChatRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/User.java" />
+        <option value="$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/Client.java" />
       </list>
     </option>
   </component>
@@ -386,7 +388,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="designPattern" type="462c0819:PsiDirectoryNode" />
               <item name="behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="interatorPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mediatorPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="structure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -441,7 +459,7 @@
     <property name="SearchEverywhereHistoryKey" value="stock&#9;PSI&#9;JAVA://main.aarray.EBestTimeToBuyAndSellStock&#10;object&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Object.java&#10;Enum&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Enum.class&#10;link&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;hash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/java/util/HashMap.class&#10;h&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Has&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Array&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/Arrays.java&#10;path&#9;FILE&#9;file:///Users/wangjing/icode/wong/algorithm/src/main/dp/MatrixShortestPathSum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554797773712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554798698267" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -476,7 +494,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -549,6 +567,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.designPattern.behavior.interatorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.designPattern.behavior.mediatorPattern.Client" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.designPattern.behavior.mediatorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -731,9 +763,11 @@
       <item itemvalue="Application.EBestTimeToBuyAndSellStockII" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.EBestTimeToBuyAndSellStockII" />
@@ -854,7 +888,7 @@
       <workItem from="1554622195396" duration="11319000" />
       <workItem from="1554637731123" duration="638000" />
       <workItem from="1554693302437" duration="30081000" />
-      <workItem from="1554781248534" duration="3591000" />
+      <workItem from="1554781248534" duration="4518000" />
     </task>
     <task id="LOCAL-00001" summary="新增队列的测试">
       <created>1550024078305</created>
@@ -881,7 +915,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453990000" />
+    <option name="totallyTimeSpent" value="454917000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,7 +930,7 @@
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.32260373" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.32260373" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.22961374" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -905,7 +939,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.019826518" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49642345" weight="0.26956522" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49642345" visible="true" weight="0.26956522" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.33236995" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -913,7 +947,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" visible="true" weight="0.20434782" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4985694" weight="0.20434782" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.35072464" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.27391306" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.020905923" />
@@ -1083,27 +1117,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/decoratorPattern/ShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/decoratorPattern/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/decoratorPattern/RedShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/designPattern/structure/decoratorPattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1456,8 +1469,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/interatorPattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/ChatRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/designPattern/behavior/mediatorPattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
