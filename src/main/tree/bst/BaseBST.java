@@ -27,6 +27,9 @@ public class BaseBST {
         TreeNode treeNodeR1R1 = new TreeNode();
         treeNodeR1R1.setVal(27);
         treeNode1R1.setRight(treeNodeR1R1);
+        TreeNode a = new TreeNode();
+        a.setVal(33);
+        treeNodeR1R1.setRight(a);
     }
 
     public static TreeNode getTreeNode1() {
