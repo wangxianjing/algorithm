@@ -4,9 +4,16 @@ package main.tree.bst;
  * Created by wong on 18/6/3.
  */
 public class TreeNode {
-    private int val;
+    public int val;
     private TreeNode left;
     private TreeNode right;
+
+    public TreeNode() {
+    }
+
+    public TreeNode(int val) {
+        this.val = val;
+    }
 
     public int getVal() {
         return val;
