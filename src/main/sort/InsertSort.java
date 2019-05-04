@@ -1,5 +1,8 @@
 package main.sort;
 
+/**
+ * 2层循环
+ */
 public class InsertSort extends BaseSort {
 
     public static void sort(int[] a) {

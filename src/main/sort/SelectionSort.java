@@ -2,6 +2,7 @@ package main.sort;
 
 /**
  * 时间复杂度稳定在O（n*2），效率略低
+ * 选择后面最小的放在"最先头"
  */
 public class SelectionSort extends BaseSort {
     public static void sort(int[] a, int startPosition) {
