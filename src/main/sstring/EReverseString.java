@@ -14,10 +14,24 @@ public class EReverseString {
         return sb.toString();
     }
 
+    public static String reverseString2(String s) {
+        char[] chars = s.toCharArray();
+        int i = 0;
+        int j = chars.length -1;
+        while (i < j) {
+            char temp = chars[i];
+            chars[i] = chars[j];
+            chars[j] = temp;
+            i++;
+            j--;
+        }
+        return String.valueOf(chars);
+    }
+
     public static void main(String[] args) {
         String s1="hello";
         String s2="A man, a plan, a canal: Panama";
-        System.out.println(reverseString(s1));
-        System.out.println(reverseString(s2));
+        System.out.println(reverseString2(s1));
+        System.out.println(reverseString2(s2));
     }
 }

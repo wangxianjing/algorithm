@@ -13,13 +13,20 @@ public class LongestNotRepeatSubString {
         for (int i = 0; i < c.length; i++) {
             c[i] = -1;
         }
+        int start = 0;
+        int end = 0;
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {
             pre = Math.max(pre, c[chars[i]]);
             cur = i - pre;
             len = Math.max(len, cur);
+            if (len == cur) {
+                start = pre;
+                end = i;
+            }
             c[chars[i]] = i;
         }
+        System.out.println(s.substring(start,len));
         return len;
     }
 

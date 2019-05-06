@@ -19,8 +19,12 @@ public class ExecutorsDemo {
 
             }
         } finally {
-
+            poolService.shutdown();
         }
-
+        try {
+            Thread.sleep(50000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
