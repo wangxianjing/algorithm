@@ -1,5 +1,7 @@
 package main.designPattern.behavior.mementoPattern;
 
+import java.util.Map;
+
 /**
  * 要点：1、构造一个类来保存需要保存的数据；2、构造一个类来保存历史版本；3、根据版本回滚
  * 适用场景：需要回滚到历史版本。
@@ -20,5 +22,6 @@ public class Client {
         System.out.println(original.getState());
         original.getStateFromMemonto(mementoList.getMemento(1));
         System.out.println(original.getState());
+        System.out.println(Math.pow(2,10));
     }
 }

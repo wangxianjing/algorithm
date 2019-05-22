@@ -27,5 +27,4 @@ public class ThreadSubClass extends Thread {
         }
     }
 
-
 }

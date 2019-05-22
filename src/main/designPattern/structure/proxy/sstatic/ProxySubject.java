@@ -7,7 +7,7 @@ package main.designPattern.structure.proxy.sstatic;
  * Created by wong on 18/7/2.
  */
 public class ProxySubject implements Subject {
-    private RealSubject realSubject = null;
+    private Subject realSubject = null;
 
     @Override
     public void play() {

@@ -5,8 +5,14 @@ package main.java.test;
  */
 public class SomeTest {
     public final static int TRANSACTION_PREPARED_TYPE = 0x1 << 2;
-
+    public static void change2A(String s) {
+        s="a";
+    }
     public static void main(String[] args) {
-        System.out.println(TRANSACTION_PREPARED_TYPE);
+
+        String s = "s";
+        s ="b";
+        change2A(s);
+        System.out.println(s);
     }
 }

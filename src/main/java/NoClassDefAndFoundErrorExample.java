@@ -6,8 +6,8 @@ package main.java;
 public class NoClassDefAndFoundErrorExample {
 
     public static void main(String[] args) {
-//        testClassNotFoundException();
-        testtNoClassDefFoundError();
+        testClassNotFoundException();
+//        testtNoClassDefFoundError();
     }
 
     /**

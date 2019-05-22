@@ -76,6 +76,7 @@ public class SerialDemo {
             User.anInt = anInt;
         }
 
+
         @Override
         public String toString() {
             return "User{" +
