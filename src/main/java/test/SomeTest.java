@@ -1,5 +1,7 @@
 package main.java.test;
 
+import java.util.Base64;
+
 /**
  * Created by wong on 2019/4/27.
  */
@@ -9,7 +11,6 @@ public class SomeTest {
         s="a";
     }
     public static void main(String[] args) {
-
         String s = "s";
         s ="b";
         change2A(s);

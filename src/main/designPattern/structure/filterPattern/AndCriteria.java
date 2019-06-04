@@ -1,5 +1,6 @@
 package main.designPattern.structure.filterPattern;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -7,17 +8,20 @@ import java.util.List;
  */
 public class AndCriteria implements Criteria {
 
-    private Criteria criteriaA;
-    private Criteria criteriaB;
+    private List<Criteria> list = new ArrayList<>();
 
-    public AndCriteria(Criteria criteriaA, Criteria criteriaB) {
-        this.criteriaA = criteriaA;
-        this.criteriaB = criteriaB;
+    public AndCriteria() {
+    }
+
+    public void addCriteria(Criteria criteria) {
+        list.add(criteria);
     }
 
     @Override
     public List<Person> meetCriteria(List<Person> personList) {
-        List<Person> people = criteriaA.meetCriteria(personList);
-        return criteriaB.meetCriteria(people);
+        for (Criteria criteria : list) {
+            personList = criteria.meetCriteria(personList);
+        }
+        return personList;
     }
 }
