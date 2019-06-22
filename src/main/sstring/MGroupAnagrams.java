@@ -42,12 +42,12 @@ public class MGroupAnagrams {
         HashMap<String, List<String>> map = new HashMap<>();
 
         for (String s : strs) {
-            Arrays.fill(count,0);
-            for (int i = 0;i < s.length();i ++) {
-                count[s.charAt(i) - 'a'] ++;
+            Arrays.fill(count, 0);
+            for (int i = 0; i < s.length(); i++) {
+                count[s.charAt(i) - 'a']++;
             }
             StringBuilder sb = new StringBuilder();
-            for (int i = 0;i < 26;i ++) {
+            for (int i = 0; i < 26; i++) {
                 sb.append("#");
                 sb.append(count[i]);
             }

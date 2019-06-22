@@ -39,7 +39,7 @@ public class ListPartition {
         int smallFalg = 0;
         int bigFlag = 0;
         while (small < big) {
-            if (smallFalg == 0 ) {
+            if (smallFalg == 0) {
                 if (tempArray[small].getData() < pivot) {
                     small++;
                 } else {
@@ -47,7 +47,7 @@ public class ListPartition {
                 }
             }
             if (bigFlag == 0) {
-                if (tempArray[big].getData()>pivot) {
+                if (tempArray[big].getData() > pivot) {
                     big--;
                 } else {
                     bigFlag = 1;

@@ -11,13 +11,14 @@ import main.common.ArrayUtils;
 public class MCountingBits {
     /**
      * https://leetcode.com/problems/counting-bits/discuss/79539/Three-Line-Java-Solution
+     *
      * @param num
      * @return
      */
     public static int[] otherGoodSolution(int num) {
-        int[] dp = new int[num+1];
-        for (int i = 1;i <=num;i++) {
-            dp[i] = dp[i/2] + i%2;
+        int[] dp = new int[num + 1];
+        for (int i = 1; i <= num; i++) {
+            dp[i] = dp[i / 2] + i % 2;
         }
         return dp;
     }

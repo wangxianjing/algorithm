@@ -31,8 +31,7 @@ public class MCoinChangeII {
     /**
      * ！！！！！！！！这个方法错误，顺序不能倒
      * 例如coins[2,3],amount = 5
-     *  output 2,显然错误。
-     *
+     * output 2,显然错误。
      */
     public static int otherGoodSolution2(int[] coins, int amount) {
         int[] dp = new int[amount + 1];

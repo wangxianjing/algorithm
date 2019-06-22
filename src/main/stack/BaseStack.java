@@ -20,7 +20,7 @@ public abstract class BaseStack {
     }
 
     public static void print() {
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             System.out.println(stack.pop());
         }
     }

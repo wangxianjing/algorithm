@@ -37,12 +37,12 @@ package main.java;
 import java.io.Serializable;
 import java.util.*;
 import java.util.function.Consumer;
+
 import sun.misc.SharedSecrets;
 
 
 public class ArrayDeque1<E> extends AbstractCollection<E>
-        implements Deque<E>, Cloneable, Serializable
-{
+        implements Deque<E>, Cloneable, Serializable {
     /**
      * The array in which the elements of the deque are stored.
      * The capacity of the deque is the length of this array, which is
@@ -82,10 +82,10 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
         // Tests "<=" because arrays aren't kept full.
         if (numElements >= initialCapacity) {
             initialCapacity = numElements;
-            initialCapacity |= (initialCapacity >>>  1);
-            initialCapacity |= (initialCapacity >>>  2);
-            initialCapacity |= (initialCapacity >>>  4);
-            initialCapacity |= (initialCapacity >>>  8);
+            initialCapacity |= (initialCapacity >>> 1);
+            initialCapacity |= (initialCapacity >>> 2);
+            initialCapacity |= (initialCapacity >>> 4);
+            initialCapacity |= (initialCapacity >>> 8);
             initialCapacity |= (initialCapacity >>> 16);
             initialCapacity++;
 
@@ -98,7 +98,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
     /**
      * Allocates empty array to hold the given number of elements.
      *
-     * @param numElements  the number of elements to hold
+     * @param numElements the number of elements to hold
      */
     private void allocateElements(int numElements) {
         elements = new Object[calculateSize(numElements)];
@@ -154,7 +154,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
      * Constructs an empty array deque with an initial capacity
      * sufficient to hold the specified number of elements.
      *
-     * @param numElements  lower bound on initial capacity of the deque
+     * @param numElements lower bound on initial capacity of the deque
      */
     public ArrayDeque1(int numElements) {
         allocateElements(numElements);
@@ -205,7 +205,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
         if (e == null)
             throw new NullPointerException();
         elements[tail] = e;
-        if ( (tail = (tail + 1) & (elements.length - 1)) == head)
+        if ((tail = (tail + 1) & (elements.length - 1)) == head)
             doubleCapacity();
     }
 
@@ -327,7 +327,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
         int mask = elements.length - 1;
         int i = head;
         Object x;
-        while ( (x = elements[i]) != null) {
+        while ((x = elements[i]) != null) {
             if (o.equals(x)) {
                 delete(i);
                 return true;
@@ -355,7 +355,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
         int mask = elements.length - 1;
         int i = (tail - 1) & mask;
         Object x;
-        while ( (x = elements[i]) != null) {
+        while ((x = elements[i]) != null) {
             if (o.equals(x)) {
                 delete(i);
                 return true;
@@ -396,7 +396,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
 
     /**
      * Retrieves and removes the head of the queue represented by this deque.
-     *
+     * <p>
      * This method differs from {@link #poll poll} only in that it throws an
      * exception if this deque is empty.
      *
@@ -417,7 +417,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
      * <p>This method is equivalent to {@link #pollFirst}.
      *
      * @return the head of the queue represented by this deque, or
-     *         {@code null} if this deque is empty
+     * {@code null} if this deque is empty
      */
     public E poll() {
         return pollFirst();
@@ -444,7 +444,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
      * <p>This method is equivalent to {@link #peekFirst}.
      *
      * @return the head of the queue represented by this deque, or
-     *         {@code null} if this deque is empty
+     * {@code null} if this deque is empty
      */
     public E peek() {
         return peekFirst();
@@ -472,7 +472,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
      * <p>This method is equivalent to {@link #removeFirst()}.
      *
      * @return the element at the front of this deque (which is the top
-     *         of the stack represented by this deque)
+     * of the stack represented by this deque)
      * @throws NoSuchElementException {@inheritDoc}
      */
     public E pop() {
@@ -504,7 +504,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
         final int h = head;
         final int t = tail;
         final int front = (i - h) & mask;
-        final int back  = (t - i) & mask;
+        final int back = (t - i) & mask;
 
         // Invariant: head <= i < tail mod circularity
         if (front >= ((t - h) & mask))
@@ -624,7 +624,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
             int m = a.length - 1, f = fence, i = cursor;
             cursor = f;
             while (i != f) {
-                @SuppressWarnings("unchecked") E e = (E)a[i];
+                @SuppressWarnings("unchecked") E e = (E) a[i];
                 i = (i + 1) & m;
                 if (e == null)
                     throw new ConcurrentModificationException();
@@ -684,7 +684,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
         int mask = elements.length - 1;
         int i = head;
         Object x;
-        while ( (x = elements[i]) != null) {
+        while ((x = elements[i]) != null) {
             if (o.equals(x))
                 return true;
             i = (i + 1) & mask;
@@ -766,8 +766,8 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
      * The following code can be used to dump the deque into a newly
      * allocated array of {@code String}:
      *
-     *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
-     *
+     * <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
+     * <p>
      * Note that {@code toArray(new Object[0])} is identical in function to
      * {@code toArray()}.
      *
@@ -775,16 +775,16 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
      *          be stored, if it is big enough; otherwise, a new array of the
      *          same runtime type is allocated for this purpose
      * @return an array containing all of the elements in this deque
-     * @throws ArrayStoreException if the runtime type of the specified array
-     *         is not a supertype of the runtime type of every element in
-     *         this deque
+     * @throws ArrayStoreException  if the runtime type of the specified array
+     *                              is not a supertype of the runtime type of every element in
+     *                              this deque
      * @throws NullPointerException if the specified array is null
      */
     @SuppressWarnings("unchecked")
     public <T> T[] toArray(T[] a) {
         int size = size();
         if (a.length < size)
-            a = (T[])java.lang.reflect.Array.newInstance(
+            a = (T[]) java.lang.reflect.Array.newInstance(
                     a.getClass().getComponentType(), size);
         copyElements(a);
         if (a.length > size)
@@ -874,7 +874,9 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
         private int fence;  // -1 until first use
         private int index;  // current index, modified on traverse/split
 
-        /** Creates new spliterator covering the given array and range */
+        /**
+         * Creates new spliterator covering the given array and range
+         */
         DeqSpliterator(ArrayDeque1<E> deq, int origin, int fence) {
             this.deq = deq;
             this.index = origin;
@@ -908,7 +910,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
             int m = a.length - 1, f = getFence(), i = index;
             index = f;
             while (i != f) {
-                @SuppressWarnings("unchecked") E e = (E)a[i];
+                @SuppressWarnings("unchecked") E e = (E) a[i];
                 i = (i + 1) & m;
                 if (e == null)
                     throw new ConcurrentModificationException();
@@ -922,7 +924,7 @@ public class ArrayDeque1<E> extends AbstractCollection<E>
             Object[] a = deq.elements;
             int m = a.length - 1, f = getFence(), i = index;
             if (i != fence) {
-                @SuppressWarnings("unchecked") E e = (E)a[i];
+                @SuppressWarnings("unchecked") E e = (E) a[i];
                 index = (i + 1) & m;
                 if (e == null)
                     throw new ConcurrentModificationException();

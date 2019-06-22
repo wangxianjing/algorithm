@@ -13,6 +13,7 @@ public class Client {
 
         RedShapeDecorator redCircle = new RedShapeDecorator(circle);
         redCircle.draw();
+        System.out.println("--------");
         RedShapeDecorator redRectangle = new RedShapeDecorator(rectangle);
         redRectangle.draw();
     }

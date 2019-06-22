@@ -46,7 +46,7 @@ public class EValidParentheses {
     }
 
     public static void main(String[] args) {
-        String s1= "()[]{}";
+        String s1 = "()[]{}";
         System.out.println(isValid(s1));
     }
 }

@@ -14,14 +14,14 @@ public class PrintTwoSortedListSamePart {
     public static void print() {
         int i = 0;
         int j = 0;
-        while ( i < list1.size() && j < list2.size()) {
+        while (i < list1.size() && j < list2.size()) {
             while (list1.get(i) < list2.get(j) && i < list1.size()) {//如果list1较小，那么要一直索引自增直到不小于list2当前索引值
                 i++;
             }
             while (list1.get(i) > list2.get(j) && j < list2.size()) {//如果此时list2较小，那么要一直索引自增直到不小于list1当前索引值
                 j++;
             }
-            while (i < list1.size() && j < list2.size() &&list1.get(i) == list2.get(j)) {//如果值相同那各自一直自增下去直到值不同
+            while (i < list1.size() && j < list2.size() && list1.get(i) == list2.get(j)) {//如果值相同那各自一直自增下去直到值不同
                 System.out.println(list1.get(i));
                 i++;
                 j++;

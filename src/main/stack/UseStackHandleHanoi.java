@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * 题目：用栈解决汉诺塔问题，将a栈上的数据移到c栈上，一次移动一个数据，且任意时刻任意一个栈下面的元素必须大于栈上面的元素
- *
+ * <p>
  * Created by wong on 18/4/24.
  */
 public class UseStackHandleHanoi {

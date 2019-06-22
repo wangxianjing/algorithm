@@ -8,6 +8,7 @@ public class ContainerWithMostWater {
 
     /**
      * 时间复杂度是O的平方
+     *
      * @param height
      * @return
      */
@@ -33,6 +34,7 @@ public class ContainerWithMostWater {
 
     /**
      * 时间复杂度是o（n）
+     *
      * @param height
      * @return
      */
@@ -47,12 +49,12 @@ public class ContainerWithMostWater {
         int right = height.length - 1;
 
         while (left < right) {
-            int water = Math.min(a[left],a[right]) * (right - left);
+            int water = Math.min(a[left], a[right]) * (right - left);
             mostWater = Math.max(mostWater, water);
-            if (a[right] > a[left]){
-                left ++;
+            if (a[right] > a[left]) {
+                left++;
             } else {
-                right --;
+                right--;
             }
         }
         return mostWater;

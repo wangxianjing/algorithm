@@ -2,7 +2,7 @@ package main.list;
 
 /**
  * https://leetcode.com/problems/sort-list/
- *
+ * <p>
  * Created by wong on 2019/4/14.
  */
 public class MSortList {

@@ -18,12 +18,12 @@ public class JumpGame {
         for (int i = 0; i < length && i <= maxReach; i++) {
             maxReach = Math.max(maxReach, nums[i] + i);
         }
-        return maxReach >= length-1;
+        return maxReach >= length - 1;
     }
 
     public static void main(String[] args) {
 //        int[] a = new int[]{2, 3, 1, 1, 4};
-        int[] a = new int[]{3,2,1,0,4};
+        int[] a = new int[]{3, 2, 1, 0, 4};
         System.out.println(otherGoodSolution(a));
     }
 }

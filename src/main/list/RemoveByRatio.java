@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * Created by wong on 18/5/1.
  */
-public class RemoveByRatio extends BaseList{
+public class RemoveByRatio extends BaseList {
 
     public static void remove(List<Integer> list, int a, int b) {
         int size = list.size();

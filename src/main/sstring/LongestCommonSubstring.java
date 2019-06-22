@@ -62,6 +62,7 @@ public class LongestCommonSubstring {
 
     /**
      * 时间复杂度和上面的一样，空间复杂度从O（N*M）下降到O(1)
+     *
      * @param str1
      * @param str2
      * @return
@@ -83,8 +84,8 @@ public class LongestCommonSubstring {
         int tempI = 0;
 
         for (int j = col - 1; j > -1; j--) {
-             tempJ = j;
-            for (tempI  = 0; tempI < row; tempI++) {
+            tempJ = j;
+            for (tempI = 0; tempI < row; tempI++) {
                 if (tempJ == col) {
                     break;
                 } else {
@@ -112,7 +113,7 @@ public class LongestCommonSubstring {
 
         tempMax = 0;
         tempEnd = 0;
-        for (int i = 1; i < row; i++){
+        for (int i = 1; i < row; i++) {
             tempI = i;
             lastValue = 0;
             for (tempJ = 0; tempJ < col; tempJ++) {
@@ -128,10 +129,10 @@ public class LongestCommonSubstring {
                         lastValue = 0;
                     }
                 }
-                tempI ++;
+                tempI++;
             }
-            tempI ++;
-         }
+            tempI++;
+        }
         if (tempMax > max) {
             max = tempMax;
             end = tempEnd;

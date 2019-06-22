@@ -28,18 +28,19 @@ public class SerialDemo {
         System.out.println(newList);
         //反序列化的输出结果为：xuliugen 123456 male
     }
+
     public static class User implements Serializable {
         private String userName;
         private String password;
         private String sex;
-        private static int anInt=32;
+        private static int anInt = 32;
         private transient String transientString;
 
         public User(String userName, String password, String sex) {
             this.userName = userName;
             this.password = password;
             this.sex = sex;
-            this.transientString ="transientString********";
+            this.transientString = "transientString********";
         }
         //全参构造方法、get和set方法省略
 

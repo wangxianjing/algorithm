@@ -17,8 +17,8 @@ public class MTargetSum {
                 count++;
             }
         } else {
-            solution(nums, S, i+1, sum - nums[i]);
-            solution(nums, S, i+1, sum + nums[i]);
+            solution(nums, S, i + 1, sum - nums[i]);
+            solution(nums, S, i + 1, sum + nums[i]);
         }
     }
 

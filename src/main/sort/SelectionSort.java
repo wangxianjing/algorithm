@@ -23,7 +23,7 @@ public class SelectionSort extends BaseSort {
 
     public static void main(String[] args) {
         sort(data, 0);
-        sort(data2,0);
+        sort(data2, 0);
         print();
 
     }

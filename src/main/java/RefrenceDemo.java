@@ -23,10 +23,10 @@ public class RefrenceDemo {
         System.out.println(o1);
     }
 
-    public static void weakHashMap(){
+    public static void weakHashMap() {
         String key = new String("1)");
-        WeakHashMap<String,Integer> weakHashMap = new WeakHashMap<>();
-        weakHashMap.put(key,1);
+        WeakHashMap<String, Integer> weakHashMap = new WeakHashMap<>();
+        weakHashMap.put(key, 1);
         System.out.println(weakHashMap.size());
         System.out.println(weakHashMap);
         key = null;

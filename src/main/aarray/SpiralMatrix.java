@@ -10,7 +10,7 @@ import java.util.List;
 public class SpiralMatrix {
 
     public static List<Integer> spiralOrder(int[][] matrix) {
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0){
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return new ArrayList<>();
         }
         int leftColumn = 0;
@@ -25,7 +25,7 @@ public class SpiralMatrix {
                 }
             }
             upRow++;
-            if (upRow <= downRow && leftColumn <= rightColumn ) {
+            if (upRow <= downRow && leftColumn <= rightColumn) {
                 for (int i = upRow; i <= downRow; i++) {
                     list.add(matrix[i][rightColumn]);
                 }
@@ -37,7 +37,7 @@ public class SpiralMatrix {
                 }
             }
             downRow--;
-            if (upRow <= downRow && leftColumn <= rightColumn ) {
+            if (upRow <= downRow && leftColumn <= rightColumn) {
                 for (int i = downRow; i >= upRow; i--) {
                     list.add(matrix[i][leftColumn]);
                 }
@@ -49,7 +49,7 @@ public class SpiralMatrix {
     }
 
     public static void main(String[] args) {
-        int[][] a = new int[][]{{1, 2,3,4}, {5,6,7, 8},{9,10,11,12}};
+        int[][] a = new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
 //        int[][] a = new int[][]{{1, 2},{3,4}};
         List<Integer> list = spiralOrder(a);
         System.out.println(list.toString());

@@ -25,7 +25,7 @@ public class NoClassDefAndFoundErrorExample {
      * 这是一个Error，编译器会抛出
      */
     private static void testtNoClassDefFoundError() {
-//        Add a = new  aDD();
+//        Add a =a new  aDD();
     }
 
 }

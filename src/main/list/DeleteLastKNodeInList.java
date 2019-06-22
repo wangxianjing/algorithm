@@ -29,7 +29,7 @@ public class DeleteLastKNodeInList {
             return;
         }
         while (i < list.size()) {
-            if (i >= k -1) {//当索引大于等于k-1时可以往后遍历
+            if (i >= k - 1) {//当索引大于等于k-1时可以往后遍历
                 iterator.next();
             }
             i++;

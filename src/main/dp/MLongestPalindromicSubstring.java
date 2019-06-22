@@ -20,7 +20,7 @@ public class MLongestPalindromicSubstring {
 
     //https://leetcode.com/problems/longest-palindromic-substring/discuss/2928/Very-simple-clean-java-solution
     public static String otherGoodSolution(String s) {
-        if (s.length()<2) {
+        if (s.length() < 2) {
             return s;
         }
         Data data = new Data(0, 0);
@@ -39,7 +39,7 @@ public class MLongestPalindromicSubstring {
         }
         if (data.maxLength < j - i - 1) {
             data.maxLength = j - i - 1;
-            data.fromIndex = i+1;
+            data.fromIndex = i + 1;
         }
     }
 

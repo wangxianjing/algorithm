@@ -26,11 +26,11 @@ public class RotatePrintMatrix {
 
     public static void print(int[][] a, int cr, int cc, int dr, int dc) {
         if (cc == dc) {
-            for (int i = cr; i <= dr;i ++){
+            for (int i = cr; i <= dr; i++) {
                 System.out.println(a[i][cc]);
             }
-        }else if (cr == dr) {
-            for (int i = cc;i <=dc;i ++){
+        } else if (cr == dr) {
+            for (int i = cc; i <= dc; i++) {
                 System.out.println(a[cr][i]);
             }
         } else {
@@ -48,7 +48,7 @@ public class RotatePrintMatrix {
                 curR++;
             }
 
-            curC-=2;
+            curC -= 2;
             while (curC >= cc) {
                 try {
                     System.out.println(a[dr][curC]);
@@ -58,8 +58,8 @@ public class RotatePrintMatrix {
                 curC--;
             }
 
-            curR-=2;
-            while (curR > cr){
+            curR -= 2;
+            while (curR > cr) {
                 System.out.println(a[curR][cc]);
                 curR--;
             }

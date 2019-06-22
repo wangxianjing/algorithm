@@ -36,9 +36,8 @@ public class AClass implements Cloneable {
         this.age = age;
     }
 
-    public AClass clone() throws CloneNotSupportedException
-    {
-        return (AClass)super.clone();
+    public AClass clone() throws CloneNotSupportedException {
+        return (AClass) super.clone();
     }
 
     @Override
@@ -80,10 +79,10 @@ public class AClass implements Cloneable {
         List<BClass> list = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
-            BClass aClass = new BClass("a",i);
+            BClass aClass = new BClass("a", i);
             list.add(aClass);
             System.out.println(aClass);
-            if (i == 9){
+            if (i == 9) {
                 try {
                     Thread.sleep(10000000);
                 } catch (InterruptedException e) {

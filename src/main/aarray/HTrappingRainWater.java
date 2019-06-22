@@ -40,6 +40,7 @@ public class HTrappingRainWater {
 
     /**
      * 两个指针的方式
+     *
      * @param height
      * @return
      */
@@ -76,7 +77,7 @@ public class HTrappingRainWater {
 
     public static void main(String[] args) {
         int[] a = new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        int[] b= new int[]{4,9,4,5,3,2};
+        int[] b = new int[]{4, 9, 4, 5, 3, 2};
         System.out.println(use2Pointers(a));
         System.out.println(use2Pointers(b));
     }

@@ -1,10 +1,7 @@
 package main.java;
 
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by wong on 2018/11/30.
@@ -130,26 +127,31 @@ public class ListExmaple {
     }
 
     public static void testTrimToSize() throws NoSuchFieldException, IllegalAccessException {
-        ArrayList list=new ArrayList(12);
+        ArrayList list = new ArrayList(12);
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
-        Field field=list.getClass().getDeclaredField("elementData");
+        Field field = list.getClass().getDeclaredField("elementData");
         field.setAccessible(true);
-        Object[] f= (Object[]) field.get(list);
+        Object[] f = (Object[]) field.get(list);
         System.out.println(list.size());
-        System.out.println("list的容量"+f.length);
+        System.out.println("list的容量" + f.length);
         list.trimToSize();
 
-        Field field1=list.getClass().getDeclaredField("elementData");
+        Field field1 = list.getClass().getDeclaredField("elementData");
         field.setAccessible(true);
-        Object[] f1= (Object[]) field.get(list);
+        Object[] f1 = (Object[]) field.get(list);
         System.out.println(list.size());
-        System.out.println("list的容量"+f1.length);
+        System.out.println("list的容量" + f1.length);
     }
 
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
-        testTrimToSize();
+//        testTrimToSize();
+        Set<Integer> set = new HashSet<>();
+        while (set.size() < 4) {
+            System.out.println((int) Math.random() * 8);
+            set.add((int) Math.random() * 8);
+        }
     }
 
 

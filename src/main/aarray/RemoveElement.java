@@ -4,9 +4,9 @@ import main.common.ArrayUtils;
 
 /**
  * https://leetcode.com/problems/remove-element/description/
- *
+ * <p>
  * 将数组的前几位改为不是指定的值并能顺序打印
- *
+ * <p>
  * Created by wong on 2018/9/15.
  */
 public class RemoveElement {

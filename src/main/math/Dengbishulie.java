@@ -18,7 +18,7 @@ public class Dengbishulie {
             if (three > end) {
                 return lists;
             }
-            List<Integer> innerList= new ArrayList<>();
+            List<Integer> innerList = new ArrayList<>();
             innerList.add(one);
             innerList.add(two);
             innerList.add(three);

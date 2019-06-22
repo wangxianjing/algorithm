@@ -39,7 +39,7 @@ public class InnerExample {
         return innerClass;
     }
 
-        class InnerClass {
+    class InnerClass {
 
         public InnerClass() {
             age = 10;

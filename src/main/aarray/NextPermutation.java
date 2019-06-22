@@ -4,7 +4,7 @@ import main.common.ArrayUtils;
 
 /**
  * https://leetcode.com/problems/next-permutation/description/
- *见讨论
+ * 见讨论
  * Created by wong on 2018\9\17 0017.
  */
 public class NextPermutation {
@@ -13,7 +13,7 @@ public class NextPermutation {
             return;
         }
         int length = nums.length;
-        int target1 =  - 1;
+        int target1 = -1;
         for (int i = length - 2; i >= 0; i--) {
             if (nums[i] < nums[i + 1]) {
                 target1 = i;
@@ -21,7 +21,7 @@ public class NextPermutation {
             }
         }
         if (target1 == -1) {//已经是最大值，全部翻转
-            convert(nums, 0, length -1);
+            convert(nums, 0, length - 1);
             return;
         }
         int target2 = length - 1;

@@ -26,7 +26,7 @@ public class LongestNotRepeatSubString {
             }
             c[chars[i]] = i;
         }
-        System.out.println(s.substring(start,len));
+        System.out.println(s.substring(start, len));
         return len;
     }
 

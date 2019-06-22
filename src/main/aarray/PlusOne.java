@@ -12,8 +12,8 @@ public class PlusOne {
         for (int i = digits.length - 1; i >= 0; i--) {
             int value = digits[i] + plusFlag;
             if (value > 9) {
-                if (i==0){
-                    int[] newNumbers = new int[digits.length+1];
+                if (i == 0) {
+                    int[] newNumbers = new int[digits.length + 1];
                     newNumbers[0] = 1;
                     return newNumbers;
                 }
@@ -44,7 +44,7 @@ public class PlusOne {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[]{ 9};
+        int[] a = new int[]{9};
         int[] ints = myResolve(a);
         ArrayUtils.print(ints);
 

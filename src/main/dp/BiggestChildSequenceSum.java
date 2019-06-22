@@ -2,7 +2,7 @@ package main.dp;
 
 /**
  * 返回连续的最大子序列的和
- *
+ * <p>
  * Created by wong on 18/6/3.
  */
 public class BiggestChildSequenceSum {
@@ -23,7 +23,7 @@ public class BiggestChildSequenceSum {
     }
 
     public static void main(String[] args) {
-        int[] a = {1, 3, 5, 6, -1 };
+        int[] a = {1, 3, 5, 6, -1};
         System.out.println(getBiggestSum(a));
     }
 }

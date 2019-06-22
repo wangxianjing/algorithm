@@ -21,6 +21,7 @@ public class UniquePath {
 
     /**
      * https://leetcode.com/problems/unique-paths/discuss/22954/0ms-5-lines-DP-Solution-in-C++-with-Explanations
+     *
      * @param m
      * @param n
      * @return
@@ -45,15 +46,15 @@ public class UniquePath {
     public static int otherGoodSolution2(int cols, int rows) {
         int[] cur = new int[cols];
 
-        for(int i=0;i<cols;i++)
+        for (int i = 0; i < cols; i++)
             cur[i] = 1;
 
 
-        for(int i=1;i<rows;i++){
-            for(int j=1;j<cols;j++)
-                cur[j] = cur[j-1] + cur[j];
+        for (int i = 1; i < rows; i++) {
+            for (int j = 1; j < cols; j++)
+                cur[j] = cur[j - 1] + cur[j];
         }
-        return cur[cols-1];
+        return cur[cols - 1];
     }
 
     public static void main(String[] args) {

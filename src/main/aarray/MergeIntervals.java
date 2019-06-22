@@ -16,6 +16,7 @@ import java.util.List;
 public class MergeIntervals {
     /**
      * https://leetcode.com/problems/merge-intervals/discuss/21222/A-simple-Java-solution
+     *
      * @param intervals
      * @return
      */

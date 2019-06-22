@@ -29,7 +29,7 @@ public class Node {
     }
 
     public static void print(Node head) {
-        if (head != null){
+        if (head != null) {
             Node temp = head;
             while (temp != null) {
                 System.out.println(temp.getData());

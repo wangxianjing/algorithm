@@ -2,7 +2,7 @@ package main.dp;
 
 /**
  * 给定一个非负数组，求连续的子序列乘积的最大值
- *
+ * <p>
  * Created by wong on 2018/11/5.
  */
 public class MMaximumProductSubarray {

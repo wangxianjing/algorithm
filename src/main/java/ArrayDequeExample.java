@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 public class ArrayDequeExample {
 
-    public static void test(){
+    public static void test() {
 
         System.out.println((0 - 1) & (16 - 1));
         ArrayDeque1 arrayDeque = new ArrayDeque1();

@@ -48,12 +48,12 @@ public class MLongestIncreasingSubsequence {
             return 0;
         }
         int len = 0;
-        int []dp = new int[nums.length];
+        int[] dp = new int[nums.length];
         for (int value : nums) {
             int i = Arrays.binarySearch(dp, 0, len, value);
             if (i < 0) {
                 System.out.println(i);
-                i = -(i +1);
+                i = -(i + 1);
             }
             dp[i] = value;
             if (i == len) {

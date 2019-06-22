@@ -11,6 +11,7 @@ public class MWordBreak {
 
     /**
      * https://leetcode.com/problems/word-break/discuss/43790/Java-implementation-using-DP-in-two-ways
+     *
      * @param s
      * @param wordDict
      * @return

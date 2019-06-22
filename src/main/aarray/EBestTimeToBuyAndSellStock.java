@@ -4,8 +4,8 @@ package main.aarray;
  * Input: [7,1,5,3,6,4]
  * Output: 5
  * Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
- *              Not 7-1 = 6, as selling price needs to be larger than buying price.
- *
+ * Not 7-1 = 6, as selling price needs to be larger than buying price.
+ * <p>
  * Created by wong on 2018/10/11.
  */
 public class EBestTimeToBuyAndSellStock {

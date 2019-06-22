@@ -1,6 +1,9 @@
-package main.designPattern.creational.factoryPattern;
+package main.designPattern.creational.simpleFactoryPattern;
 
 /**
+ *
+ * 简单工厂，违背开闭原则
+ *
  * Created by wong on 2019/4/8.
  */
 public class Client {

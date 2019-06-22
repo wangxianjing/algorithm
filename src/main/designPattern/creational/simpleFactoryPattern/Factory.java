@@ -1,4 +1,4 @@
-package main.designPattern.creational.factoryPattern;
+package main.designPattern.creational.simpleFactoryPattern;
 
 /**
  * 一个厂家生产不同产品

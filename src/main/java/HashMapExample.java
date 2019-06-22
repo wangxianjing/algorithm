@@ -53,8 +53,8 @@ public class HashMapExample {
     public static void testClone() {//浅拷贝
 
         HashMap<String, AClass> hashMap = new HashMap<>();
-        AClass a= new AClass("aa",1);
-        AClass b= new AClass("bb",2);
+        AClass a = new AClass("aa", 1);
+        AClass b = new AClass("bb", 2);
         hashMap.put("1", a);
         hashMap.put("2", b);
         System.out.println(hashMap);

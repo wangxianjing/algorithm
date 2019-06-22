@@ -10,9 +10,8 @@ public class Sql {
      * a     语文   32
      * b     英语   44
      * b     语文   35
-     *
+     * <p>
      * 根据学生的每个学科总分进行排名
-     *
      */
     String sql1 = "SELECT table1.student_name,table1.total_score from( SELECT student_name,sum(score) as total_score from score_table GROUP BY student_name) as table1 order by table1.total_score DESC ;";
 
@@ -32,5 +31,5 @@ public class Sql {
     /**
      * 查处平均分大于60的学号和平均分
      */
-    String s3="select avg()";
+    String s3 = "select avg()";
 }
