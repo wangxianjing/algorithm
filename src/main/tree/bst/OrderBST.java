@@ -133,6 +133,34 @@ public class OrderBST {
         }
     }
 
+    /**
+     * 层序打印，需要换行
+     *
+     * @param treeNode
+     */
+    public static void printWithChangeLine(TreeNode treeNode) {
+        Queue<TreeNode> treeNodes = new LinkedList<>();
+        TreeNode nlast = treeNode;//当前的最后一个
+        TreeNode last = treeNode;//上一层的最后一个
+        treeNodes.add(treeNode);
+        while (!treeNodes.isEmpty()) {
+            TreeNode cur = treeNodes.poll();
+            System.out.println(cur.getVal() + " ");
+            if (cur.getLeft() != null) {
+                treeNodes.add(cur.getLeft());
+                nlast = cur.getLeft();
+            }
+            if (cur.getRight() != null) {
+                treeNodes.add(cur.getRight());
+                nlast = cur.getRight();
+            }
+            if (cur == last) {
+                System.out.println();
+                last = nlast;
+            }
+        }
+    }
+
     public static void main(String[] args) {
 //        preOrder(BaseBST.getTreeNode1());
 //        middleOrder(BaseBST.getTreeNode1());
@@ -141,7 +169,7 @@ public class OrderBST {
 //        preOrder3(BaseBST.getTreeNode1());
 //        middleOrder2(BaseBST.getTreeNode1());
 //        levelOrder(BaseBST.getTreeNode1());
-        postOrder2(BaseBST.getTreeNode1());
+        printWithChangeLine(BaseBST.getTreeNode1());
     }
 
 }
